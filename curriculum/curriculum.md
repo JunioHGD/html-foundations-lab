@@ -8,7 +8,7 @@ Este laboratório forma o domínio dos **fundamentos estruturais e semânticos d
 
 | ID | Bloco |
 |:---:|---|
-| `HTML-01` | [Estrutura Básica do Documento](../practice/html-01-estrutura-basica-do-documento/) |
+| `HTML-01` | [Estrutura do Documento](../practice/html-01-estrutura-do-documento/) |
 | `HTML-02` | [Conteúdo e Hierarquia Textual](../practice/html-02-conteudo-e-hierarquia-textual/) |
 | `HTML-03` | [Hipertexto e Navegação](../practice/html-03-hipertexto-e-navegacao/) |
 | `HTML-04` | [Estrutura Semântica de Conteúdo](../practice/html-04-estrutura-semantica-de-conteudo/) |
@@ -18,7 +18,7 @@ Este laboratório forma o domínio dos **fundamentos estruturais e semânticos d
 
 ---
 
-# HTML-01 — Estrutura Básica do Documento
+# HTML-01 — Estrutura do Documento
 
 ## Objetivo
 
@@ -112,16 +112,16 @@ Exemplo: criar um título com `id` único para servir como alvo de um link `href
 
 ## Checklist
 
+Ao concluir este bloco, devo conseguir:
+
 - [ ] Criar um arquivo HTML válido com `<!DOCTYPE html>` e elementos `<html>`, `<head>`, `<body>`.
 - [ ] Inserir metadados no `<head>`: `<title>`, `<meta charset="UTF-8">`, links para CSS e scripts.
 - [ ] Estruturar conteúdo básico no `<body>` usando `<h1>`, `<p>` e atribuir `id`/`class` corretamente.
 - [ ] Garantir que o documento seja semanticamente correto e pronto para receber estilos JavaScript integrados.
 
-## Validação do bloco
+## Validação
 
 Construir um documento HTML inicial completo com título, meta e links, e um corpo contendo um cabeçalho (`<h1>`) e parágrafos. O documento deve ser válido e formatado corretamente, exibindo o título na aba e contendo referências ao CSS/JS externos.
-
----
 
 # HTML-02 — Conteúdo e Hierarquia Textual
 
@@ -214,22 +214,22 @@ Exemplo: marcar termos importantes com `<strong>` e `<abbr title="">`, e estiliz
 
 ## Checklist
 
+Ao concluir este bloco, devo conseguir:
+
 - [ ] Estruturar documentos com uma hierarquia de títulos correta (um `<h1>` principal e subsequentes coerentes).
 - [ ] Envolver cada parágrafo em `<p>` separadamente.
-- [ ] Criar listas `<ul>`, `<ol>` e `<dl>` conforme o tipo de informação.
-- [ ] Usar elementos inline semânticos (`<strong>`, `<em>`, etc.) para ênfase, em vez de estilos visuais diretos.
+- [ ] Criar listas ordenadas `<ol>` e não ordenadas `<ul>` para conjuntos de itens.
+- [ ] Utilizar marcações inline semânticas (e.g. `<strong>`, `<em>`) quando necessário, em vez de estilizar visualmente.
 
-## Validação do bloco
+## Validação
 
-Dado um texto bruto (por exemplo, um artigo curto com título, seções e lista de itens), estruturá-lo em HTML usando títulos, parágrafos e listas apropriadas, garantindo que a hierarquia dos títulos faça sentido e que textos enfáticos usem `<strong>` ou `<em>`.
-
----
+Dada a descrição de um artigo (título, seções, itens), estruturar corretamente o conteúdo usando `<h1>`-`<h6>`, `<p>`, `<ul>/<ol>`. O resultado deve refletir a hierarquia de informações e ser acessível semânticamente.
 
 # HTML-03 — Hipertexto e Navegação
 
 ## Objetivo
 
-Desenvolver a competência de criar **links e navegação entre páginas** usando HTML, compreendendo diferentes destinos e o papel semântico dos elementos de navegação.
+Aprender a criar hiperlinks e blocos de navegação semânticos, permitindo ao usuário transitar entre páginas ou seções.
 
 ## Unidades
 
@@ -237,94 +237,21 @@ Desenvolver a competência de criar **links e navegação entre páginas** usand
 
 **Objetivo**
 
-Criar hyperlinks usando `<a>` para navegar entre URLs, seções da página, e acionar e-mail/telefone.
+Inserir e configurar hiperlinks usando `<a>` adequadamente.
 
 **Fundamentos**
 
-- Sintaxe `<a href="URL">texto</a>`. O atributo `href` pode ser URL absoluta (`https://...`), relativa (`pagina.html`), âncora (`#id`), ou protocolos `mailto:`/`tel:`.
-- Texto de link descritivo (evitar “clique aqui” genérico) para acessibilidade.
-- Atributos `target="_blank"` para nova aba e `rel="noopener"` por segurança quando aplicável.
-- Links internos: `<a href="#secao">` + `id="secao"` no destino.
+- Uso do elemento `<a href="URL">texto</a>` para criar link a outra página ou recurso.
+- `href` pode ser URL absoluta, relativa (ou fragmento interno `#id`), ou protocolos especiais (`mailto:`, `tel:`).
+- O conteúdo do `<a>` deve descrever o destino do link.
+- A tecla Enter ou clique ativa o link.
+- Acessibilidade: links exigem texto significativo (não “clique aqui”) para leitores de tela.
 
 **Competências**
 
-- Criar links externos e internos funcionais com texto descritivo.
-- Montar uma navegação interna em página longa usando âncoras (`#id`).
-- Usar `mailto:` e `tel:` para contato quando necessário.
-
-**Dependências**
-
-HTML-01.03 (uso de `id`).
-
-**Web Integration**
-
-Exemplo: construir uma página com um sumário no topo usando links `#id` para seções; CSS destaca o link ativo e JS pode adicionar smooth scroll.
-
-### HTML-03.02 — Elemento de navegação (`<nav>`)
-
-**Objetivo**
-
-Agrupar links de navegação principal em um bloco semântico `<nav>`.
-
-**Fundamentos**
-
-- `<nav>` representa uma seção de navegação principal (menus, índices).
-- Deve conter lista de links (geralmente `<ul>`/`<li>`).
-- Vários `<nav>` podem existir (menu principal, rodapé), mas cada um deve ser distinguível (ex.: `aria-label` simples, se necessário).
-
-**Competências**
-
-- Criar um menu de navegação com `<nav><ul><li><a>...`.
-- Diferenciar links isolados de seções de navegação completas.
-- Assegurar que menus tenham rótulo acessível quando houver múltiplos `<nav>`.
-
-**Dependências**
-
-HTML-03.01, HTML-02.02.
-
-**Web Integration**
-
-Exemplo: criar um menu horizontal `<nav>` estilizado com CSS e adicionar JavaScript para realçar dinamicamente a página ou seção atual.
-
-## Checklist
-
-- [ ] Criar hyperlinks `<a>` com `href` correto para URL interna ou externa.
-- [ ] Usar texto de link descritivo e atributos como `target`/`rel` de forma consciente.
-- [ ] Agrupar menus em `<nav>` e estruturar a lista de links adequadamente.
-- [ ] Implementar links internos (âncoras) usando `href="#id"` e `id` no destino.
-
-## Validação do bloco
-
-Construir uma página com um menu `<nav>` contendo pelo menos três links: um para outra página, um para e-mail (mailto) e um para uma seção interna via `#id`. Todos os links devem ter texto claro e funcionar corretamente.
-
----
-
-# HTML-04 — Estrutura Semântica de Conteúdo
-
-## Objetivo
-
-Ensinar a organizar uma página em **seções semânticas** que representem diferentes partes do conteúdo, favorecendo clareza e acessibilidade.
-
-## Unidades
-
-### HTML-04.01 — Introdução e rodapé de página/seções
-
-**Objetivo**
-
-Usar `<header>`, `<footer>` e `<main>` para delimitar áreas de página e seções.
-
-**Fundamentos**
-
-- `<header>` pode representar cabeçalho da página ou de uma seção (ex.: título e introdução).
-- `<footer>` funciona como rodapé de página ou seção (ex.: autor, copyright).
-- `<main>` deve envolver o conteúdo principal único da página (apenas um `<main>` visível por página).
-- Landmarks implícitos: `<header>`/`<footer>`/`<main>` criam pontos de referência acessíveis para tecnologias assistivas.
-
-**Competências**
-
-- Estruturar uma página com `<header>` global, `<main>` e `<footer>` global.
-- Inserir `<header>`/`<footer>` dentro de `<article>` ou `<section>` quando apropriado.
-- Explicar a finalidade de `<main>` e garantir apenas um por página.
+- Criar links entre páginas do mesmo site (navegação interna) e para sites externos.
+- Incluir links de email (`href="mailto:..."`) e telefone (`href="tel:..."`).
+- Implementar links que apontam para seções da própria página usando `id` no destino.
 
 **Dependências**
 
@@ -332,48 +259,123 @@ HTML-02.01.
 
 **Web Integration**
 
-Exemplo: estruturar um layout de blog com `<header>` (logotipo/menu), `<main>` (posts) e `<footer>`, depois estilizar grid/flex em CSS.
+Exemplo: adicionar links em um parágrafo para um site externo (abrir em nova aba com `target="_blank"`) e um link interno `#ancora`.
+
+### HTML-03.02 — Elemento de navegação (`<nav>`)
+
+**Objetivo**
+
+Usar `<nav>` para marcar áreas de navegação do documento.
+
+**Fundamentos**
+
+- `<nav>` denota uma seção de links de navegação (menus, índices).
+- Não é necessário envolver todos os links em `<nav>`, apenas grupos significativos.
+- Cada `<nav>` pode ser rotulado (ex.: via `aria-label`) para distinguir (menu principal, rodapé, seções).
+- Geralmente, menus são implementados como `<nav><ul><li><a>...</a></li>...</ul></nav>`.
+
+**Competências**
+
+- Envolver blocos de links de menu dentro de `<nav>`.
+- Explicar quando usar `<nav>` (e.g. menu principal, rodapé, sumário), evitando sobreuso.
+- Inserir atributo ARIA de rótulo se houver múltiplos `<nav>`.
+
+**Dependências**
+
+HTML-02.01.
+
+**Web Integration**
+
+Exemplo: criar um menu de navegação horizontal usando `<nav><ul><li><a>...</a></li></ul></nav>` e posteriormente estilizar via CSS para barra de menu.
+
+## Checklist
+
+Ao concluir este bloco, devo conseguir:
+
+- [ ] Implementar corretamente links `<a>` com `href` para páginas internas e externas.
+- [ ] Criar links especiais (e-mail, telefone) e fragmentos internos com `#id`.
+- [ ] Agrupar menus de navegação dentro de `<nav>`, justificando seu uso.
+- [ ] Garantir texto de link descritivo para navegabilidade (sem “clique aqui”).
+
+## Validação
+
+Dada uma lista de páginas, montar um menu de navegação usando `<nav>` contendo links (`<a>`) para essas páginas. Garantir links absolutos e relativos funcionais, e que o menu seja marcado semanticamente.
+
+# HTML-04 — Estrutura Semântica de Conteúdo
+
+## Objetivo
+
+Capacitar na organização semântica de grandes seções da página usando elementos estruturais HTML5 (landmarks).
+
+## Unidades
+
+### HTML-04.01 — Introdução e rodapé de página/seções
+
+**Objetivo**
+
+Usar `<header>`, `<footer>` e `<main>` para delimitar áreas de introdução, conteúdo principal e encerramento.
+
+**Fundamentos**
+
+- `<header>` representa conteúdo introdutório ou de navegação em uma seção ou na página. Pode conter logotipo, título do site, subtítulo, busca etc.
+- `<footer>` representa o rodapé de sua seção ancestral (ou rodapé do site) com informação de autoria, direitos, links complementares.
+- `<main>` denota o conteúdo principal único da página (apenas um `<main>` por documento, excluindo cabeçalhos/rodapés globais).
+- Ao aninhar `<header>`/`<footer>` dentro de `<article>` ou `<section>`, eles referem-se àquele bloco, não ao site inteiro.
+
+**Competências**
+
+- Colocar `<header>` no topo da página para marcação de logo/título geral.
+- Usar `<footer>` para informações de rodapé (copyright, contato).
+- Envolver o conteúdo principal em `<main>`.
+- Explicar a diferença entre `<header>` de página e `<header>` interno a artigo/seção.
+
+**Dependências**
+
+HTML-02.01.
+
+**Web Integration**
+
+Exemplo: estruturar um layout de página com `<header>` (logo/menu), `<main>` (principal conteúdo) e `<footer>`, deixando essa divisão clara para estilos CSS (cabeçalho fixo, rodapé adaptado).
 
 ### HTML-04.02 — Seções de conteúdo (`<section>`, `<article>`, `<aside>`)
 
 **Objetivo**
 
-Diferenciar e aplicar elementos de seção de conteúdo conforme seu significado.
+Organizar conteúdo em seções e artigos independentes de forma semântica.
 
 **Fundamentos**
 
-- `<section>` agrupa conteúdo temático dentro de uma página; normalmente possui um heading descritivo.
-- `<article>` representa conteúdo independente e autocontido (post de blog, notícia, comentário), que poderia ser reutilizado fora da página.
-- `<aside>` contém informação complementar ou tangencial (barra lateral, chamadas relacionadas).
-- Evitar usar `<section>` apenas como contêiner genérico – nesses casos `<div>` é mais apropriado.
+- `<article>` para conteúdo independente e reutilizável (e.g. post, comentário, widget). Cada `<article>` deve ter seu próprio título interno.
+- `<section>` para agrupar conteúdo temático genérico, com pelo menos um título interno. Usar quando não houver elemento mais específico.
+- `<aside>` para conteúdo tangencial/complementar (e.g. barra lateral, citações), que pode ser removido sem afetar o fluxo principal.
+- Aninhamento: `<article>`s podem estar dentro de `<section>` ou vice-versa conforme necessário, e `<aside>` fica em paralelo ao conteúdo.
 
 **Competências**
 
-- Escolher `<section>` para agrupar conteúdo relacionado sob um título.
-- Usar `<article>` para conteúdo que faz sentido isoladamente.
-- Inserir `<aside>` para conteúdo secundário relacionado.
-- Estruturar headings dentro de seções coerentes.
+- Identificar se um pedaço de conteúdo deve ser `<article>` (auto-suficiente) ou `<section>` (parte de algo maior).
+- Inserir `<aside>` para informações auxiliares (sobre o autor, links extras).
+- Garantir que cada `<section>` ou `<article>` inclua um cabeçalho próprio (`<h*>`).
 
 **Dependências**
 
-HTML-04.01, HTML-02.01.
+HTML-02.01, HTML-04.01.
 
 **Web Integration**
 
-Exemplo: criar uma homepage de notícias com vários `<article>`s dentro de `<main>`, e `<aside>` para notícias relacionadas; usar CSS Grid para layout em colunas.
+Exemplo: marcar um blog onde cada post é `<article>`, seções temáticas são `<section>`, e uma barra lateral de links relacionados dentro de `<aside>`, possibilitando estilizar layout de duas colunas.
 
 ## Checklist
 
-- [ ] Usar `<header>`, `<main>` e `<footer>` para as áreas globais da página.
-- [ ] Organizar conteúdo em `<section>` com headings apropriados.
-- [ ] Marcar conteúdos independentes como `<article>` e complementares como `<aside>`.
-- [ ] Evitar `<div>` quando um elemento semântico nativo é mais adequado.
+Ao concluir este bloco, devo conseguir:
 
-## Validação do bloco
+- [ ] Utilizar `<header>`, `<footer>` e `<main>` para as regiões globais da página.
+- [ ] Dividir o conteúdo em `<section>` com títulos apropriados quando for parte de uma página.
+- [ ] Identificar conteúdos independentes como `<article>` (e.g. post, notícia).
+- [ ] Inserir `<aside>` para material acessório, explicando seu contexto.
 
-Criar a estrutura HTML de uma página tipo blog ou portal de notícias usando `<header>`, `<main>`, múltiplos `<article>`/`<section>`, um `<aside>` e `<footer>`. O HTML deve refletir corretamente a hierarquia semântica do conteúdo.
+## Validação
 
----
+Descrever a estrutura de uma página (e.g. site de notícias) usando `<header>`, `<main>`, `<section>`, `<article>`, `<aside>`, `<footer>`. O HTML deve refletir corretamente a hierarquia semântica do conteúdo.
 
 # HTML-05 — Conteúdo Multimídia e Visual
 
@@ -439,16 +441,16 @@ Exemplo: uma página de mídia com `<video>`. Em CSS, definir tamanho e posicion
 
 ## Checklist
 
+Ao concluir este bloco, devo conseguir:
+
 - [ ] Incluir imagens com `<img>` usando `src` correto e texto alternativo significativo.
 - [ ] Usar `<figure>` e `<figcaption>` para legendas sempre que fizer sentido.
 - [ ] Embutir áudio/vídeo com `<audio>`/`<video>` e atributos `controls`, incluindo múltiplos `<source>` para cobertura de formatos.
 - [ ] Fornecer conteúdo alternativo (legendas ou links) para mídias não suportadas.
 
-## Validação do bloco
+## Validação
 
 Criar um documento HTML que exiba pelo menos uma imagem (com alt) dentro de `<figure>` e um vídeo incorporado com dois formatos de fonte. Deve ter controles nativos e fallback (por ex., link de download ou legenda).
-
----
 
 # HTML-06 — Dados Tabulares
 
@@ -487,15 +489,15 @@ Exemplo: gerar uma tabela de dados estáticos e aplicar estilo CSS (ex.: zebra s
 
 ## Checklist
 
+Ao concluir este bloco, devo conseguir:
+
 - [ ] Implementar uma tabela HTML completa com `<caption>`, `<thead>`, `<tbody>`, linhas e células.
 - [ ] Identificar corretamente colunas usando `<th scope="col">` (ou scope apropriado) e `<td>` para dados.
 - [ ] Usar tabela apenas para dados tabulares, e explicar sua estrutura.
 
-## Validação do bloco
+## Validação
 
 Dado um conjunto de dados (ex.: lista de produtos com preço e quantidade), montar uma tabela HTML clara e acessível que apresente essas informações com cabeçalhos e descrição.
-
----
 
 # HTML-07 — Formulários e Dados
 
@@ -594,13 +596,15 @@ Exemplo: formulário de cadastro com `<input type="email" required>` e `<input t
 
 ## Checklist
 
+Ao concluir este bloco, devo conseguir:
+
 - [ ] Estruturar um `<form>` completo com `action` e `method` definidos.
 - [ ] Agrupar controles em `<fieldset>`/`<legend>` quando aplicável.
 - [ ] Criar campos de formulário (`<input>`, `<textarea>`, `<select>`) com `<label>` associados.
 - [ ] Definir `name` nos campos para formar pares nome/valor enviados.
 - [ ] Usar tipos HTML5 e atributos de validação (`required`, `pattern`, etc.) para controles.
 
-## Validação do bloco
+## Validação
 
 Exercício de checkpoint: criar um formulário de múltiplos campos (nome, e-mail, mensagem) que utilize `<form>`, labels associados, tipos de input adequados e um botão de envio. O estudante deverá explicar como os `name`-valores são submetidos e como o formulário controla dados inválidos.
 
@@ -610,4 +614,4 @@ Exercício de checkpoint: criar um formulário de múltiplos campos (nome, e-mai
 
 [← Mapa curricular](./README.md) ·
 [↑ HTML Foundations Lab](../README.md) ·
-[HTML-01 — Estrutura Básica do Documento →](../practice/html-01-estrutura-basica-do-documento/)
+[HTML-01 — Estrutura do Documento →](../practice/html-01-estrutura-do-documento/)
