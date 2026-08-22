@@ -1,45 +1,52 @@
 # HTML Foundations Lab
 
-![HTML](https://img.shields.io/badge/HTML-Foundations-E34F26?style=flat-square&logo=html5&logoColor=white)
-![Web Foundations](https://img.shields.io/badge/Web_Foundations-Semantic_Structure-4B5563?style=flat-square)
-![Semantic & Accessible](https://img.shields.io/badge/Semantic_%26_Accessible-Native_HTML-2563EB?style=flat-square)
+![HTML](https://img.shields.io/badge/HTML-Foundations-E34F26?logo=html5&logoColor=white)
+![Status](https://img.shields.io/badge/status-em%20andamento-yellow)
+![Focus](https://img.shields.io/badge/foco-fundamentos%20%2B%20prática-blue)
 
-Este repositório documenta uma trilha fundamental de **HTML orientada por estrutura, significado, hipertexto e acessibilidade nativa**. O objetivo é construir modelos mentais que permitam estruturar documentos e interfaces Web semanticamente corretos, acessíveis e tecnicamente consistentes sem depender de memorização isolada de tags.
+Laboratório dedicado ao estudo e à prática dos **fundamentos essenciais de HTML** para desenvolvimento Web.
 
-## Sobre o Lab
+O foco é estruturar documentos com significado, acessibilidade nativa e comportamento adequado, aplicando HTML de forma prática em páginas, navegação, conteúdo, tabelas e formulários.
 
-A progressão parte da linguagem, da estrutura do documento e do processamento pelo navegador; avança por conteúdo semântico, hipertexto, arquitetura de página, acessibilidade, imagens, dados tabulares e formulários; e termina consolidando a integração com CSS e JavaScript e critérios de qualidade da marcação. O escopo permanece centrado nos fundamentos do HTML, deixando recursos especializados, APIs da plataforma, ARIA avançado e outros aprofundamentos fora do caminho principal.
+> **Fundamentos → prática → semântica → integração**
 
-## Trilha curricular
+## Competências
 
-- [HTML-01 — Linguagem, documento e processamento](./practice/html-01-linguagem-documento-e-processamento/)
-- [HTML-02 — Conteúdo semântico e hipertexto](./practice/html-02-conteudo-semantico-e-hipertexto/)
-- [HTML-03 — Arquitetura semântica e acessibilidade nativa](./practice/html-03-arquitetura-semantica-e-acessibilidade-nativa/)
-- [HTML-04 — Conteúdo visual e dados estruturados](./practice/html-04-conteudo-visual-e-dados-estruturados/)
-- [HTML-05 — Formulários e controles nativos](./practice/html-05-formularios-e-controles-nativos/)
-- [HTML-06 — Integração e qualidade da marcação](./practice/html-06-integracao-e-qualidade-da-marcacao/)
+- **estruturar documentos semânticos e acessíveis** a partir de requisitos de conteúdo e hierarquia;
+- **implementar navegação, mídia, dados tabulares e formulários funcionais**, utilizando corretamente os recursos nativos do HTML;
+- **analisar e corrigir marcação**, justificando escolhas estruturais, semânticas e de acessibilidade.
+
+## Percurso
+
+| ID | Bloco |
+|:---:|---|
+| `HTML-01` | [Estrutura do Documento](./practice/html-01-estrutura-do-documento/) |
+| `HTML-02` | [Conteúdo e Hierarquia Textual](./practice/html-02-conteudo-e-hierarquia-textual/) |
+| `HTML-03` | [Hipertexto e Navegação](./practice/html-03-hipertexto-e-navegacao/) |
+| `HTML-04` | [Estrutura Semântica de Conteúdo](./practice/html-04-estrutura-semantica-de-conteudo/) |
+| `HTML-05` | [Conteúdo Multimídia e Visual](./practice/html-05-conteudo-multimidia-e-visual/) |
+| `HTML-06` | [Dados Tabulares](./practice/html-06-dados-tabulares/) |
+| `HTML-07` | [Formulários e Dados](./practice/html-07-formularios-e-dados/) |
+
+> Consulte o [currículo completo](./curriculum/curriculum.md).
 
 ## Estrutura do repositório
 
-| Diretório | Finalidade |
-|---|---|
-| [`curriculum/`](./curriculum/) | Currículo que define escopo, sequência, objetivos e conceitos do Lab. |
-| [`practice/`](./practice/) | Documentação e evidências organizadas por blocos e unidades curriculares. |
-| [`projects/`](./projects/) | Projetos de integração ampla que podem combinar conhecimentos de múltiplos blocos do Lab. |
+```text
+html-foundations-lab/
+├── curriculum/
+├── practice/
+├── web-integration/
+└── projects/
+```
 
-## Documentos
+- [`curriculum/`](./curriculum/) — mapa e currículo canônico do Lab.
+- [`practice/`](./practice/) — blocos, unidades, exercícios e checkpoints.
+- [`web-integration/`](./web-integration/) — aplicação dos fundamentos em contextos Web funcionais.
+- [`projects/`](./projects/) — projetos de integração de maior escopo.
 
-| Documento | Função |
-|---|---|
-| `README.md` | Apresenta o escopo atual e orienta a navegação pelo repositório. |
-| `knowledge-check.md` | Reúne perguntas e respostas selecionadas para documentar compreensão e comunicação técnica em uma unidade. |
-| `technical-interview.md` | Reúne perguntas e respostas selecionadas durante a validação cumulativa de um bloco. |
-| `curriculum.md` | Registra a estrutura curricular canônica que orienta o Lab. |
+---
 
-## Projetos
+### Navegação
 
-Os projetos de integração ampla ficam em [`projects/`](./projects/). Eles serão adicionados conforme houver base suficiente para combinar, de forma significativa, conhecimentos desenvolvidos em diferentes blocos.
-
-## Começar
-
-[Explorar o primeiro bloco →](./practice/html-01-linguagem-documento-e-processamento/)
+[HTML-01 — Estrutura do Documento →](./practice/html-01-estrutura-do-documento/)
