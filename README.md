@@ -36,13 +36,11 @@ O foco é estruturar documentos com significado, acessibilidade nativa e comport
 html-foundations-lab/
 ├── curriculum/
 ├── practice/
-├── web-integration/
 └── projects/
 ```
 
 - [`curriculum/`](./curriculum/) — mapa e currículo canônico do Lab.
 - [`practice/`](./practice/) — blocos, unidades, exercícios e checkpoints.
-- [`web-integration/`](./web-integration/) — aplicação dos fundamentos em contextos Web funcionais.
 - [`projects/`](./projects/) — projetos de integração de maior escopo.
 
 ---
