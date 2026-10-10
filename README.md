@@ -10,6 +10,16 @@ O foco é estruturar documentos com significado, acessibilidade nativa e comport
 
 > **Fundamentos → prática → semântica → integração**
 
+**Acesso rápido:** [Exercícios](#diretório-visual-de-exercícios) · [Competências](#competências) · [Percurso](#percurso) · [Estrutura do repositório](#estrutura-do-repositório)
+
+## Diretório visual de exercícios
+
+O **diretório visual** organiza os módulos e tópicos deste Lab em uma página navegável. Conforme os exercícios forem publicados, será possível acessá-los e visualizar as implementações diretamente no navegador.
+
+> **[Explorar os exercícios do HTML Lab →](https://juniohgd.github.io/html-foundations-lab/html-lab/)**
+
+Os arquivos de estudo, exercícios e checkpoints também podem ser consultados na pasta [`practice/`](./practice/).
+
 ## Competências
 
 - **estruturar documentos semânticos e acessíveis** a partir de requisitos de conteúdo e hierarquia;
@@ -30,13 +40,9 @@ O foco é estruturar documentos com significado, acessibilidade nativa e comport
 
 > Consulte o [currículo completo](./curriculum/curriculum.md).
 
-## Diretório visual de exercícios
+### Navegação
 
-O **diretório visual** organiza os módulos e tópicos deste Lab em uma página navegável. Conforme os exercícios forem publicados, será possível acessá-los e visualizar as implementações diretamente no navegador.
-
-> **[Explorar os exercícios do HTML Lab →](https://juniohgd.github.io/html-foundations-lab/html-lab/)**
-
-Os arquivos de estudo, exercícios e checkpoints também podem ser consultados na pasta [`practice/`](./practice/).
+[HTML-01 — Estrutura do Documento →](./practice/html-01-estrutura-do-documento/)
 
 ## Estrutura do repositório
 
@@ -53,8 +59,3 @@ html-foundations-lab/
 - [`practice/`](./practice/) — blocos, unidades, exercícios e checkpoints.
 - [`projects/`](./projects/) — projetos de integração de maior escopo.
 
----
-
-### Navegação
-
-[HTML-01 — Estrutura do Documento →](./practice/html-01-estrutura-do-documento/)
