@@ -30,16 +30,26 @@ O foco é estruturar documentos com significado, acessibilidade nativa e comport
 
 > Consulte o [currículo completo](./curriculum/curriculum.md).
 
+## Diretório visual de exercícios
+
+O **diretório visual** organiza os módulos e tópicos deste Lab em uma página navegável. Conforme os exercícios forem publicados, será possível acessá-los e visualizar as implementações diretamente no navegador.
+
+> **[Explorar os exercícios do HTML Lab →](https://juniohgd.github.io/html-foundations-lab/html-lab/)**
+
+Os arquivos de estudo, exercícios e checkpoints também podem ser consultados na pasta [`practice/`](./practice/).
+
 ## Estrutura do repositório
 
 ```text
 html-foundations-lab/
 ├── curriculum/
+├── html-lab/
 ├── practice/
 └── projects/
 ```
 
 - [`curriculum/`](./curriculum/) — mapa e currículo canônico do Lab.
+- [`html-lab/`](./html-lab/) — página do diretório visual de exercícios.
 - [`practice/`](./practice/) — blocos, unidades, exercícios e checkpoints.
 - [`projects/`](./projects/) — projetos de integração de maior escopo.
 
