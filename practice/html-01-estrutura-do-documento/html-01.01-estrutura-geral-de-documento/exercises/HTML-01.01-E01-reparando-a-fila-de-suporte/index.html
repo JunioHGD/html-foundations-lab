@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fila de suporte</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="app-shell">
+      <div class="topbar">
+        <div>
+          <p class="eyebrow">Operação de atendimento</p>
+          <h1>Fila de suporte</h1>
+          <p class="subtitle">Acompanhe os chamados atuais e filtre a fila por status.</p>
+        </div>
+
+        <p class="summary" id="summary">4 de 4 chamados</p>
+      </div>
+
+      <div class="filters" aria-label="Filtros de status">
+        <button class="filter-button is-active" type="button" data-filter="all">Todos</button>
+        <button class="filter-button" type="button" data-filter="open">Abertos</button>
+        <button class="filter-button" type="button" data-filter="analysis">Em análise</button>
+        <button class="filter-button" type="button" data-filter="resolved">Resolvidos</button>
+      </div>
+
+      <!-- .ticket-list
+       Região destinada a conter e exibir as informações e status de cada chamado realizado
+      -->
+
+      <div class="ticket-list" id="ticketList">
+
+        <article class="ticket" data-status="open">
+          <div class="ticket-heading">
+            <div>
+              <p class="ticket-code">#1041</p>
+              <h2>Pagamento não confirmado</h2>
+            </div>
+            <span class="status status-open">Aberto</span>
+          </div>
+          <p class="ticket-owner">Cliente: Marina Lopes</p>
+          <button class="details-toggle" type="button" aria-expanded="false">Detalhes</button>
+          <p class="ticket-details" hidden>O pagamento foi aprovado no banco, mas ainda não aparece no histórico do pedido.</p>
+        </article>
+
+        <article class="ticket" data-status="analysis">
+          <div class="ticket-heading">
+            <div>
+              <p class="ticket-code">#1042</p>
+              <h2>Conta bloqueada após troca de senha</h2>
+            </div>
+            <span class="status status-analysis">Em análise</span>
+          </div>
+          <p class="ticket-owner">Cliente: Rafael Nunes</p>
+          <button class="details-toggle" type="button" aria-expanded="false">Detalhes</button>
+          <p class="ticket-details" hidden>O cliente redefiniu a senha, mas recebe uma mensagem de bloqueio ao tentar entrar novamente.</p>
+        </article>
+
+        <article class="ticket" data-status="resolved">
+          <div class="ticket-heading">
+            <div>
+              <p class="ticket-code">#1043</p>
+              <h2>Endereço duplicado no perfil</h2>
+            </div>
+            <span class="status status-resolved">Resolvido</span>
+          </div>
+          <p class="ticket-owner">Cliente: Bruno Martins</p>
+          <button class="details-toggle" type="button" aria-expanded="false">Detalhes</button>
+          <p class="ticket-details" hidden>O cadastro apresentava duas cópias do mesmo endereço após uma atualização do perfil.</p>
+        </article>
+
+        <article class="ticket" data-status="open">
+          <div class="ticket-heading">
+            <div>
+              <p class="ticket-code">#1044</p>
+              <h2>Cupom válido não aplicado</h2>
+            </div>
+            <span class="status status-open">Aberto</span>
+          </div>
+          <p class="ticket-owner">Cliente: Camila Souza</p>
+          <button class="details-toggle" type="button" aria-expanded="false">Detalhes</button>
+          <p class="ticket-details" hidden>O cupom aparece como válido, mas o desconto não é refletido no resumo da compra.</p>
+        </article>
+      </div>
+
+      <p class="footnote">Os filtros atualizam a fila<br>sem recarregar a página.</p>
+    </div>
+  </body>
+</html>
