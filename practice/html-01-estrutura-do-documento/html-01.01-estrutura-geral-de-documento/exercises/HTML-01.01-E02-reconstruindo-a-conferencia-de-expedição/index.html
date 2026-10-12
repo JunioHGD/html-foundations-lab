@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <main class="batch-panel">
+      <article class="panel-card">
+        <header>
+          <h1>Conferência de expedição</h1>
+          <p class="batch-code">#EXP-248</p>
+          <p class="intro">Confirme cada etapa antes de liberar o lote para transporte.</p>
+        </header>
+
+        <article class="progress-block">
+          <section class="progress-row">
+            <p id="progressText"></p>      
+          </section>
+
+          <section class="progress-track">
+            <div id="progressFill"></div>
+          </section>
+        </article>
+        
+        <!-- article class="check-list" >> Bloco destinado as operações necessárias destinadas a expedição de produtos, devidamente organizadas em ordem lógica. 
+        -->
+
+        <article class="check-list">
+
+          <section class="check-item">
+            <h2>Produtos conferidos</h2>
+            
+            <div class="check-description">
+              <p>Quantidades e códigos dos produtos correspondem ao pedido.</p>
+            </div>
+            <div class="check-footer">
+              <button type="button" class="check-toggle">Marcar como concluída</button>
+              <span class="check-state">Pendente</span>
+            </div>
+          </section>
+      
+          <section class="check-item">
+            <h2>Embalagem lacrada</h2>
+    
+            <div class="check-description">
+              <p>A caixa está fechada e sem sinais de violação.</p>
+            </div>
+
+            <div class="check-footer">
+              <button type="button" class="check-toggle">Marcar como concluída</button>
+              <span class="check-state">Pendente</span>
+            </div>
+          </section>
+
+          <section class="check-item">
+            <h2>Etiqueta de transporte</h2>            
+            
+            <div class="check-description">
+              <p>A etiqueta está legível e corresponde ao destino do lote.</p>
+            </div>
+
+            <div class="check-footer">
+              <button type="button" class="check-toggle">Marcar como concluída</button>
+              <span class="check-state">Pendente</span>
+            </div>
+          </section>
+
+          <section class="check-item">
+            <h2>Nota fiscal anexada</h2>
+            
+            <div class="check-description">
+              <p>A documentação fiscal acompanha o volume correto.</p>
+            </div>
+
+            <div class="check-footer">
+              <button type="button" class="check-toggle">Marcar como concluída</button>
+              <span class="check-state">Pendente</span>
+            </div>
+          </section>
+
+        </article>
+
+        <footer class="release-area">
+          <p id="statusMessage">Aguardando conclusão das etapas.</p>
+          <button type="button" id="releaseBatch">Liberar lote</button>
+        </footer>
+      </article>           
+      
+    </main>
+</body>
+</html>
