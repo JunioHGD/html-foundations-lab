@@ -23,11 +23,6 @@ Os exercícios desta unidade aplicam os fundamentos estudados por meio de implem
 
 [Ver exercícios →](./exercises/)
 
-## Web Integration
-
-Exemplo: marcar um blog onde cada post é `<article>`, seções temáticas são `<section>`, e uma barra lateral de links relacionados dentro de `<aside>`, possibilitando estilizar layout de duas colunas.
-
-[Ver Web Integration →](../../../web-integration/)
 
 ---
 
