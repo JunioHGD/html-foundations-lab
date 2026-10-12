@@ -74,7 +74,7 @@ Na verificação das interações, o progresso deve iniciar em **0 de 4 etapas c
 
 ## Visualização online
 
-_Adicione aqui o link direto para o exercício no GitHub Pages após a publicação._
+[Acessar o exercício no GitHub Pages](https://juniohgd.github.io/html-foundations-lab/practice/html-01-estrutura-do-documento/html-01.01-estrutura-geral-de-documento/exercises/HTML-01.01-E02-reconstruindo-a-conferencia-de-expedi%C3%A7%C3%A3o/index.html)
 
 ## Aprendizado
 
