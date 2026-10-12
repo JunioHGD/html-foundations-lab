@@ -24,11 +24,6 @@ Os exercícios desta unidade aplicam os fundamentos estudados por meio de implem
 
 [Ver exercícios →](./exercises/)
 
-## Web Integration
-
-Exemplo: estruturar o `<head>` de um site com `<link>` de CSS e `<script>` de JS já integrados, preparando para estilização e interatividade.
-
-[Ver Web Integration →](../../../web-integration/)
 
 ---
 
