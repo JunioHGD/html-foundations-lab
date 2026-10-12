@@ -24,11 +24,6 @@ Os exercícios desta unidade aplicam os fundamentos estudados por meio de implem
 
 [Ver exercícios →](./exercises/)
 
-## Web Integration
-
-Exemplo: estruturar um layout de página com `<header>` (logo/menu), `<main>` (principal conteúdo) e `<footer>`, deixando essa divisão clara para estilos CSS (cabeçalho fixo, rodapé adaptado).
-
-[Ver Web Integration →](../../../web-integration/)
 
 ---
 
