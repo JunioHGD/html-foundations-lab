@@ -24,11 +24,6 @@ Os exercícios desta unidade aplicam os fundamentos estudados por meio de implem
 
 [Ver exercícios →](./exercises/)
 
-## Web Integration
-
-Exemplo: formulário de cadastro com `<input type="email" required>` e `<input type="number" min="1" max="10">`, estilizados e submetidos via JavaScript AJAX.
-
-[Ver Web Integration →](../../../web-integration/)
 
 ---
 
