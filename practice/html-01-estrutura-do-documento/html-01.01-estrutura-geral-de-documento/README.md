@@ -24,11 +24,6 @@ Os exercícios desta unidade aplicam os fundamentos estudados por meio de implem
 
 [Ver exercícios →](./exercises/)
 
-## Web Integration
-
-Exemplo: criar uma página “template” inicial conectando um arquivo CSS via `<link>` e um arquivo JS via `<script>` no `<head>`, prontos para aplicação de estilos e scripts.
-
-[Ver Web Integration →](../../../web-integration/)
 
 ---
 
