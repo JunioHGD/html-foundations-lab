@@ -24,11 +24,6 @@ Os exercícios desta unidade aplicam os fundamentos estudados por meio de implem
 
 [Ver exercícios →](./exercises/)
 
-## Web Integration
-
-Exemplo: montar o HTML de uma página de artigo com um `<h1>` principal e `<h2>`/`<h3>` subsequentes, que será estilizado posteriormente via CSS (e.g. tamanhos de fonte).
-
-[Ver Web Integration →](../../../web-integration/)
 
 ---
 
