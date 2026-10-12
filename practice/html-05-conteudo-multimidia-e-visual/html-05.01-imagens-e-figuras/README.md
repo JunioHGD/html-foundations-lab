@@ -23,11 +23,6 @@ Os exercícios desta unidade aplicam os fundamentos estudados por meio de implem
 
 [Ver exercícios →](./exercises/)
 
-## Web Integration
-
-Exemplo: exibir uma foto ilustrativa usando `<figure>`, estilizar via CSS (responsivo) e, no JavaScript, acessá-la pelo DOM para funcionalidade (e.g. lightbox).
-
-[Ver Web Integration →](../../../web-integration/)
 
 ---
 
