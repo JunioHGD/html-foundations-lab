@@ -23,11 +23,6 @@ Os exercícios desta unidade aplicam os fundamentos estudados por meio de implem
 
 [Ver exercícios →](./exercises/)
 
-## Web Integration
-
-Exemplo: criar um menu de navegação horizontal usando `<nav><ul><li><a>...</a></li></ul></nav>` e posteriormente estilizar via CSS para barra de menu.
-
-[Ver Web Integration →](../../../web-integration/)
 
 ---
 
