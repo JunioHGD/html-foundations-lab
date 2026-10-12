@@ -23,11 +23,6 @@ Os exercícios desta unidade aplicam os fundamentos estudados por meio de implem
 
 [Ver exercícios →](./exercises/)
 
-## Web Integration
-
-Exemplo: criar uma lista de recursos (com `<ul>`) ou instruções passo a passo (`<ol>`), depois aplicar estilos ou scripts (e.g. toggle de visibilidade de subitens).
-
-[Ver Web Integration →](../../../web-integration/)
 
 ---
 
