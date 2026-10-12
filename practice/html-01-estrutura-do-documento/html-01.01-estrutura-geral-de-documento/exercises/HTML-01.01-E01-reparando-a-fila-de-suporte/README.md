@@ -60,8 +60,7 @@ document.querySelectorAll('.ticket-list > .ticket').length; // 4
 
 ## Visualização online
 
-<!-- Substitua o endereço abaixo pela URL publicada no GitHub Pages antes de publicar este README. -->
-[Acessar o exercício no GitHub Pages](INSERIR_URL_DO_GITHUB_PAGES)
+Acessar o exercício no GitHub Pages]([INSERIR_URL_DO_GITHUB_PAGES](https://juniohgd.github.io/html-foundations-lab/practice/html-01-estrutura-do-documento/html-01.01-estrutura-geral-de-documento/exercises/HTML-01.01-E01-reparando-a-fila-de-suporte/))
 
 ## Aprendizado principal
 
