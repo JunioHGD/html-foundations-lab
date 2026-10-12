@@ -26,11 +26,6 @@ Os exercícios desta unidade aplicam os fundamentos estudados por meio de implem
 
 [Ver exercícios →](./exercises/)
 
-## Web Integration
-
-Exemplo: um formulário de contato (`<form method="post" action="/submit">`) com CSS para layout de campos e JavaScript para validação do lado cliente antes do envio.
-
-[Ver Web Integration →](../../../web-integration/)
 
 ---
 
