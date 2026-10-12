@@ -385,6 +385,28 @@ a {
   font-weight: 750;
 }
 
+.topic-panel .doc-link {
+  display: block;
+}
+
+.topic-panel .doc-link + .doc-link {
+  margin-top: 12px;
+}
+
+.exercise-entry + .exercise-entry {
+  margin-top: 20px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.exercise-title {
+  display: block;
+  margin: 0 0 10px;
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 750;
+}
+
 .doc-link:hover {
   text-decoration: underline;
 }
