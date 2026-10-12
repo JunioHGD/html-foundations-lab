@@ -24,11 +24,6 @@ Os exercícios desta unidade aplicam os fundamentos estudados por meio de implem
 
 [Ver exercícios →](./exercises/)
 
-## Web Integration
-
-Exemplo: adicionar links em um parágrafo para um site externo (abrir em nova aba com `target="_blank"`) e um link interno `#ancora`.
-
-[Ver Web Integration →](../../../web-integration/)
 
 ---
 
