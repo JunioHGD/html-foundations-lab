@@ -22,11 +22,6 @@ Os exercícios desta unidade aplicam os fundamentos estudados por meio de implem
 
 [Ver exercícios →](./exercises/)
 
-## Web Integration
-
-Exemplo: marcar termos importantes com `<strong>` e `<abbr title="">`, e estilizar com CSS (cores ou tipografia) para reforçar a semântica.
-
-[Ver Web Integration →](../../../web-integration/)
 
 ---
 
