@@ -23,11 +23,6 @@ Os exercícios desta unidade aplicam os fundamentos estudados por meio de implem
 
 [Ver exercícios →](./exercises/)
 
-## Web Integration
-
-Exemplo: uma página de mídia com `<video>`. Em CSS, definir tamanho e posicionamento. Em JS, controlar eventos do player ou atualizar legendas dinamicamente.
-
-[Ver Web Integration →](../../../web-integration/)
 
 ---
 
