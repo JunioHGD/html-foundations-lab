@@ -23,11 +23,6 @@ Os exercícios desta unidade aplicam os fundamentos estudados por meio de implem
 
 [Ver exercícios →](./exercises/)
 
-## Web Integration
-
-Exemplo: gerar uma tabela de dados estáticos e aplicar estilo CSS (ex.: zebra stripes) e possivelmente usar JS para ordenar ou filtrar as colunas.
-
-[Ver Web Integration →](../../../web-integration/)
 
 ---
 
