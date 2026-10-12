@@ -25,11 +25,6 @@ Os exercícios desta unidade aplicam os fundamentos estudados por meio de implem
 
 [Ver exercícios →](./exercises/)
 
-## Web Integration
-
-Exemplo: um formulário de login estilizado com CSS, onde `name="username"` e `name="password"` definem os campos, e JavaScript valida (ex.: checa se não está vazio) antes do envio.
-
-[Ver Web Integration →](../../../web-integration/)
 
 ---
 
