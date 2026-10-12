@@ -24,11 +24,6 @@ Os exercícios desta unidade aplicam os fundamentos estudados por meio de implem
 
 [Ver exercícios →](./exercises/)
 
-## Web Integration
-
-Exemplo: criar um título com `id` único para servir como alvo de um link `href="#id"` e estilizar via CSS (classe), ilustrando a ponte HTML → CSS/JS.
-
-[Ver Web Integration →](../../../web-integration/)
 
 ---
 
