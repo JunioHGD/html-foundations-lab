@@ -73,7 +73,7 @@ A aplicação utiliza apenas **HTML, CSS e JavaScript**, sem frameworks, bibliot
 
 ## Visualização online
 
-_Adicione aqui o link direto para o exercício no GitHub Pages após a publicação._
+[Acessar o exercício no GitHub Pages](https://juniohgd.github.io/html-foundations-lab/practice/html-01-estrutura-do-documento/html-01.02-cabecalho-e-metadados/exercises/HTML-01.02-E01-central-de-disponibilidade-nexoOps/)
 
 ## Aprendizado principal
 
