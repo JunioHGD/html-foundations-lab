@@ -1,0 +1,522 @@
+/* 1. Cores e medidas compartilhadas */
+
+:root {
+    color-scheme: light;
+
+    --page: #eef2f6;
+    --surface: #ffffff;
+    --surface-soft: #f6f8fb;
+
+    --text: #17263c;
+    --muted: #526278;
+    --border: #d8e1eb;
+
+    --primary: #174f9e;
+    --primary-hover: #103d7d;
+    --primary-soft: #eaf1fc;
+
+    --success: #146344;
+    --success-soft: #eaf7ef;
+
+    --warning: #805100;
+    --warning-soft: #fff5de;
+
+    --danger: #a12a36;
+    --danger-soft: #fff0f1;
+
+    --radius: 1rem;
+    --shadow: 0 8px 24px rgb(23 38 60 / 6%);
+}
+
+
+/* 2. Base do documento */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-width: 0;
+    background: var(--page);
+    color: var(--text);
+
+    font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+p,
+ol,
+ul {
+    margin: 0;
+}
+
+h1,
+h2 {
+    line-height: 1.25;
+    text-wrap: balance;
+}
+
+h1,
+h2,
+p,
+li,
+button {
+    overflow-wrap: anywhere;
+}
+
+button {
+    font: inherit;
+}
+
+main,
+section,
+article,
+fieldset {
+    min-width: 0;
+}
+
+::selection {
+    background: #c8dcfb;
+    color: #142d50;
+}
+
+
+/* 3. Área principal */
+
+main {
+    width: min(100%, 90rem);
+    margin-inline: auto;
+    padding: clamp(1rem, 3vw, 2.5rem);
+
+    display: grid;
+    gap: 1.5rem;
+}
+
+
+/* 4. Cabeçalho do painel */
+
+main > header {
+    position: relative;
+    padding: clamp(1.5rem, 4vw, 3rem);
+
+    border: 1px solid #2a4668;
+    border-radius: 1.5rem;
+
+    background:
+        radial-gradient(
+            circle at top right,
+            rgb(70 131 198 / 28%),
+            transparent 60%
+        ),
+        #142a45;
+
+    color: #ffffff;
+    box-shadow: var(--shadow);
+}
+
+main > header::before {
+    content: "";
+    display: block;
+
+    width: 2.75rem;
+    height: 2.75rem;
+    margin-bottom: 1.25rem;
+
+    background: url("./assets/nexoops-icon.svg") center / contain no-repeat;
+}
+
+main > header h1 {
+    max-width: 30ch;
+    font-size: clamp(1.65rem, 3.5vw, 2.65rem);
+    letter-spacing: -0.035em;
+}
+
+main > header p {
+    max-width: 65ch;
+    margin-top: 1rem;
+    color: #d2dfef;
+}
+
+main > h2 {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+
+/* 5. Área que contém filtros e detalhes */
+
+main > h2 + section {
+    display: grid;
+    gap: 1.5rem;
+}
+
+
+/* 6. Filtros */
+
+fieldset {
+    min-inline-size: 0;
+    margin: 0;
+    padding: 1rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+}
+
+legend {
+    max-width: 100%;
+    padding-inline: 0.5rem;
+
+    color: var(--muted);
+    font-size: 0.875rem;
+    font-weight: 650;
+}
+
+button {
+    min-height: 2.75rem;
+    max-width: 100%;
+    padding: 0.7rem 1rem;
+
+    border: 1px solid var(--border);
+    border-radius: 0.65rem;
+
+    background: var(--surface);
+    color: var(--text);
+
+    font-weight: 650;
+    line-height: 1.4;
+    white-space: normal;
+    cursor: pointer;
+
+    transition:
+        background-color 160ms ease,
+        border-color 160ms ease,
+        box-shadow 160ms ease;
+}
+
+.filter {
+    flex: 1 1 9rem;
+}
+
+.filter.activeFilter {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: #ffffff;
+    box-shadow: 0 3px 8px rgb(23 79 158 / 18%);
+}
+
+button:focus-visible {
+    outline: 3px solid var(--primary);
+    outline-offset: 4px;
+}
+
+button:disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
+}
+
+
+/* 7. Resumo e contagem */
+
+#servicesCount {
+    margin-bottom: 1rem;
+    color: var(--muted);
+    font-size: 0.925rem;
+    font-weight: 600;
+}
+
+#allServices {
+    padding: 0;
+    list-style: none;
+
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.75rem;
+}
+
+#allServices > li {
+    min-width: 0;
+    padding: 1rem;
+
+    background: var(--primary-soft);
+    color: var(--primary);
+    border: 1px solid var(--border);
+    border-left: 4px solid currentColor;
+    border-radius: 0.75rem;
+
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+}
+
+/* A ordem corresponde aos quatro itens do seu resumo. */
+
+#allServices > li:nth-child(2) {
+    background: var(--success-soft);
+    color: var(--success);
+}
+
+#allServices > li:nth-child(3) {
+    background: var(--warning-soft);
+    color: var(--warning);
+}
+
+#allServices > li:nth-child(4) {
+    background: var(--danger-soft);
+    color: var(--danger);
+}
+
+
+/* 8. Painel de detalhes */
+
+#test {
+    padding: clamp(1rem, 2.5vw, 1.5rem);
+
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+#test > h2 {
+    margin-bottom: 1rem;
+    font-size: 1.15rem;
+}
+
+#serviceDetailsContainer {
+    display: grid;
+    gap: 1rem;
+}
+
+#serviceDetailsContainer > p {
+    padding: 1.25rem;
+
+    background: var(--surface-soft);
+    color: var(--muted);
+    border: 1px dashed #a8b7c9;
+    border-radius: 0.75rem;
+}
+
+#serviceDetailsContainer > ol {
+    padding: 0;
+    list-style: none;
+
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.75rem;
+}
+
+#serviceDetailsContainer > ol > li {
+    padding: 0.85rem 1rem;
+
+    background: var(--surface-soft);
+    border: 1px solid var(--border);
+    border-radius: 0.65rem;
+}
+
+#serviceDetailsContainer > ol > li:first-child {
+    grid-column: 1 / -1;
+    font-weight: 750;
+}
+
+#serviceDetailsContainer > ol > li:last-child {
+    grid-column: 1 / -1;
+}
+
+
+/* 9. Grupos de serviços */
+
+#servicesContainer {
+    display: grid;
+    gap: 1rem;
+}
+
+#servicesContainer > h2 {
+    margin-top: 0.75rem;
+    padding-left: 0.75rem;
+
+    border-left: 4px solid var(--primary);
+
+    font-size: 1.15rem;
+    letter-spacing: -0.015em;
+}
+
+#servicesContainer > article {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1rem;
+
+    margin-bottom: 1rem;
+}
+
+
+/* 10. Cartões individuais */
+
+#servicesContainer > article > section {
+    --status-color: var(--primary);
+    --status-background: var(--primary-soft);
+
+    min-width: 0;
+    padding: 1.25rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-top: 4px solid var(--status-color);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+#servicesContainer > article > section > ol {
+    padding: 0;
+    list-style: none;
+
+    display: grid;
+    gap: 0.75rem;
+}
+
+#servicesContainer > article > section > ol > li {
+    color: var(--muted);
+    font-size: 0.925rem;
+    font-variant-numeric: tabular-nums;
+}
+
+#servicesContainer > article > section > ol > li:first-child {
+    color: var(--text);
+    font-size: 1.075rem;
+    font-weight: 750;
+    line-height: 1.4;
+}
+
+/* O segundo item contém "Status: ...". */
+
+#servicesContainer > article > section > ol > li:nth-child(2) {
+    justify-self: start;
+    max-width: 100%;
+    padding: 0.3rem 0.65rem;
+
+    background: var(--status-background);
+    color: var(--status-color);
+    border: 1px solid currentColor;
+    border-radius: 0.5rem;
+
+    font-size: 0.8rem;
+    font-weight: 750;
+}
+
+/* Mantém a ação na base de cartões da mesma linha. */
+
+#servicesContainer > article > section > button {
+    width: 100%;
+    margin-top: auto;
+
+    background: var(--primary-soft);
+    color: var(--primary);
+    border-color: #c4d6f1;
+}
+
+
+/* 11. Estados obtidos de service.status */
+
+#servicesContainer > article > section[data-status="operational"] {
+    --status-color: var(--success);
+    --status-background: var(--success-soft);
+}
+
+#servicesContainer > article > section[data-status="degraded"] {
+    --status-color: var(--warning);
+    --status-background: var(--warning-soft);
+
+    border-top-style: dashed;
+}
+
+#servicesContainer > article > section[data-status="outage"] {
+    --status-color: var(--danger);
+    --status-background: var(--danger-soft);
+
+    border-top-style: double;
+}
+
+
+/* 12. Interação por ponteiro */
+
+@media (hover: hover) {
+    button:not(:disabled):hover {
+        background: var(--primary-soft);
+        border-color: var(--primary);
+    }
+
+    .filter.activeFilter:hover {
+        background: var(--primary-hover);
+        border-color: var(--primary-hover);
+    }
+
+    #servicesContainer > article > section > button:hover {
+        background: var(--primary);
+        color: #ffffff;
+    }
+}
+
+
+/* 13. Telas intermediárias: a partir de 640px */
+
+@media (min-width: 40rem) {
+    #allServices,
+    #serviceDetailsContainer > ol {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+
+/* 14. Cartões em duas colunas: a partir de 768px */
+
+@media (min-width: 48rem) {
+    #servicesContainer > article {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+
+/* 15. Resumo em quatro colunas: a partir de 1024px */
+
+@media (min-width: 64rem) {
+    #allServices {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+
+
+/* 16. Cartões em três colunas: a partir de 1280px */
+
+@media (min-width: 80rem) {
+    #servicesContainer > article {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+
+/* 17. Preferência por movimento reduzido */
+
+@media (prefers-reduced-motion: reduce) {
+    button {
+        transition: none;
+    }
+}
