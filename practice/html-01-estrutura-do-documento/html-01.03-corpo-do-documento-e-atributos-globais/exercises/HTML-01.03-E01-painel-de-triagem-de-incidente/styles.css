@@ -1,0 +1,376 @@
+:root {
+    color-scheme: dark;
+    font-family: "Segoe UI", system-ui, sans-serif;
+    color: #e6eef9;
+    background: #081321;
+    --surface: #101f33;
+    --surface-raised: #162a43;
+    --border: #2d4562;
+    --muted: #a6b9d0;
+    --accent: #8ac5ff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-width: 0;
+    background: radial-gradient(ellipse at top right, #183451 0, transparent 55%);
+    line-height: 1.6;
+}
+
+main {
+    width: min(100% - 3rem, 76rem);
+    margin-inline: auto;
+    padding-block: clamp(2rem, 5vw, 4.5rem);
+}
+
+main > header {
+    max-width: 54rem;
+    margin-bottom: 2.5rem;
+    border-left: 3px solid var(--accent);
+    padding-left: 1.25rem;
+}
+
+h1 {
+    margin: 0 0 0.75rem;
+    font-size: clamp(1.8rem, 4vw, 2.75rem);
+    line-height: 1.15;
+    letter-spacing: -0.035em;
+    text-wrap: balance;
+}
+
+header p {
+    margin: 0;
+    color: var(--muted);
+    max-width: 75ch;
+}
+
+/* Os filtros ficam à esquerda; o resumo ocupa a coluna da direita. */
+#articleIncidentController {
+    display: grid;
+    grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr);
+    grid-template-areas: "filters summary";
+    gap: 1rem;
+    margin-bottom: 2rem;
+    align-items: stretch;
+}
+
+#incidentFilters,
+#sectionIncidentInfo {
+    min-width: 0;
+    padding: 1.25rem;
+    border: 1px solid var(--border);
+    border-radius: 0.875rem;
+    background: var(--surface);
+}
+
+#incidentFilters {
+    grid-area: filters;
+}
+
+#sectionIncidentInfo {
+    grid-area: summary;
+}
+
+fieldset {
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.625rem;
+}
+
+legend,
+caption {
+    padding: 0;
+    text-align: left;
+    font-weight: 600;
+}
+
+legend {
+    margin-bottom: 1rem;
+}
+
+.buttonGroup {
+    min-height: 2.75rem;
+    max-width: 100%;
+    padding: 0.625rem 0.875rem;
+    border: 1px solid #466488;
+    border-radius: 0.5rem;
+    background: #1b3350;
+    color: #e6eef9;
+    font: inherit;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.4;
+    cursor: pointer;
+    overflow-wrap: anywhere;
+    transition: background-color 150ms, border-color 150ms;
+}
+
+@media (hover: hover) {
+    .buttonGroup:hover {
+        background: #294c73;
+        border-color: var(--accent);
+    }
+}
+
+.buttonGroup.buttonActive {
+    background: #a2d1ff;
+    border-color: #a2d1ff;
+    color: #0a213a;
+    box-shadow: inset 0 -3px 0 #4c94d6;
+}
+
+.buttonGroup:focus-visible {
+    outline: 3px solid #c1e1ff;
+    outline-offset: 4px;
+}
+
+.buttonGroup:active {
+    transform: translateY(1px);
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+
+th,
+td {
+    text-align: left;
+    overflow-wrap: anywhere;
+}
+
+#sectionIncidentInfo caption {
+    margin-bottom: 0.75rem;
+}
+
+#sectionIncidentInfo th {
+    color: var(--muted);
+    font-size: 0.75rem;
+    font-weight: 400;
+    vertical-align: top;
+}
+
+#sectionIncidentInfo td {
+    padding-top: 0.25rem;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+#sectionIncidentInfo th + th,
+#sectionIncidentInfo td + td {
+    padding-left: 1rem;
+    text-align: right;
+}
+
+#filterQuantityResult {
+    color: var(--accent);
+    font-size: 2rem;
+    line-height: 1.2;
+    font-variant-numeric: tabular-nums;
+}
+
+.incidentTable caption {
+    padding-bottom: 1rem;
+    font-size: 1.125rem;
+}
+
+.incidentTable th {
+    background: #1b304a;
+    color: #c1d2e8;
+    font-size: 0.75rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.incidentTable th,
+.incidentTable td {
+    padding: 1rem 1.25rem;
+    border-bottom: 1px solid #263c56;
+}
+
+.incidentTable th:first-child {
+    width: 18%;
+    border-top-left-radius: 0.75rem;
+}
+
+.incidentTable th:nth-child(2) {
+    width: 38%;
+}
+
+.incidentTable th:last-child {
+    border-top-right-radius: 0.75rem;
+}
+
+/* Cada registro mantém a classe .incident e suas classes de estado. */
+.incident {
+    --status-color: #9bc8ff;
+    --status-background: #1c3859;
+    background: var(--surface);
+}
+
+.incident:nth-child(even) {
+    background: #12243a;
+}
+
+.incident.open {
+    --status-color: #a7ceff;
+    --status-background: #1c3a60;
+}
+
+.incident.investigating {
+    --status-color: #f3d398;
+    --status-background: #3c3425;
+}
+
+.incident.resolved {
+    --status-color: #91dfcb;
+    --status-background: #183b39;
+}
+
+.incident .incidentCode {
+    border-left: 3px solid var(--status-color);
+    color: #adc9eb;
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 0.875rem;
+    letter-spacing: 0.02em;
+}
+
+.incidentService {
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.incidentStatus span,
+.incidentPriority span {
+    display: inline-block;
+    max-width: 100%;
+    padding: 0.2rem 0.6rem;
+    border-radius: 0.375rem;
+    font-size: 0.8125rem;
+    line-height: 1.5;
+}
+
+.incidentStatus span {
+    background: var(--status-background);
+    color: var(--status-color);
+}
+
+.incidentPriority span {
+    border: 1px solid currentColor;
+    color: #b5c7dc;
+}
+
+.incident[data-priority="medium"] .incidentPriority span {
+    color: #a7cfff;
+}
+
+.incident[data-priority="high"] .incidentPriority span {
+    color: #f3cc8c;
+}
+
+.incident.critical .incidentPriority span {
+    background: #482b3d;
+    color: #ffb5c7;
+    font-weight: 700;
+}
+
+/* A tabela vira uma lista de cartões sem esconder ou cortar os valores. */
+@media (max-width: 40rem) {
+    main {
+        width: calc(100% - 2rem);
+        padding-block: 2rem;
+    }
+
+    main > header {
+        padding-left: 1rem;
+        margin-bottom: 1.75rem;
+    }
+
+    #articleIncidentController {
+        grid-template-columns: minmax(0, 1fr);
+        grid-template-areas: "filters" "summary";
+    }
+
+    #incidentFilters,
+    #sectionIncidentInfo {
+        padding: 1rem;
+    }
+
+    .buttonGroup {
+        flex: 1 1 8rem;
+    }
+
+    .incidentTable,
+    .incidentTable caption,
+    #incidentPanel {
+        display: block;
+    }
+
+    /* Os cabeçalhos continuam disponíveis para leitores de tela. */
+    .incidentTable thead {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        overflow: hidden;
+        clip-path: inset(50%);
+        white-space: nowrap;
+    }
+
+    #incidentPanel {
+        display: grid;
+        gap: 1rem;
+    }
+
+    .incident {
+        display: block;
+        min-width: 0;
+        border: 1px solid var(--border);
+        border-top: 3px solid var(--status-color);
+        border-radius: 0.75rem;
+        padding: 0.25rem 1rem;
+    }
+
+    .incidentTable td {
+        display: grid;
+        grid-template-columns: minmax(0, 5rem) minmax(0, 1fr);
+        gap: 0.75rem;
+        align-items: baseline;
+        padding: 0.75rem 0;
+    }
+
+    .incidentTable td::before {
+        content: attr(data-label);
+        color: var(--muted);
+        font: 400 0.75rem/1.5 "Segoe UI", system-ui, sans-serif;
+        letter-spacing: normal;
+    }
+
+    .incident .incidentCode {
+        border-left: 0;
+    }
+
+    .incidentTable td:last-child {
+        border-bottom: 0;
+    }
+
+    .incidentStatus span,
+    .incidentPriority span {
+        justify-self: start;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .buttonGroup {
+        transition: none;
+    }
+}

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Painel de controle informativo de incidentes">
+    <title>Painel de controle de incidentes</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Painel de controle de incidentes:</h1>
+            <p>Acompanhe os incidentes registrados nos serviços da plataforma, consulte seus status e prioridades e utilize os filtros para localizar rapidamente ocorrências que exigem atenção.</p>
+        </header>
+
+        <article id="articleIncidentController">
+            <section id="sectionIncidentInfo" aria-live="polite" aria-atomic="true">
+                <table>
+                    <caption>Dados selecionados de exibição:</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Filtro:</th>
+                            <th scope="col">Número de incidentes:</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="filterSelected"></td>
+                            <td id="filterQuantityResult"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+    
+            <section id="incidentFilters" title="Filtre os incidentes por categoria, e acompanhe os dados correspondentes.">
+                <fieldset>
+                    <legend>Filtros de incidentes:</legend>
+
+                    <button data-filterType="all" class="buttonGroup buttonActive" type="button" aria-pressed="true">Todos</button>
+                    <button data-filterType="open" class="buttonGroup" type="button" aria-pressed="false">Abertos</button>
+                    <button data-filterType="investigating" class="buttonGroup" type="button" aria-pressed="false">Em investigação</button>
+                    <button data-filterType="resolved" class="buttonGroup" type="button" aria-pressed="false">Resolvidos</button>
+                    <button data-filterType="critical" class="buttonGroup" type="button" aria-pressed="false">Críticos</button>
+                </fieldset>
+            </section>
+        </article>
+
+        <table class="incidentTable" role="table">
+            <caption>Painel de registro:</caption>
+            <thead role="rowgroup">
+                <tr>
+                    <th scope="col">Código:</th>
+                    <th scope="col">Serviço:</th>
+                    <th scope="col">Status:</th>
+                    <th scope="col">Prioridade:</th>
+                </tr>
+            </thead>
+            
+            <tbody id="incidentPanel" role="rowgroup">
+                <tr role="row"
+                    class="incident open"
+                    data-code="INC-1047"
+                    data-status="open"
+                    data-priority="medium"
+                >
+                    <td role="cell" class="incidentCode" data-label="Código">INC-1047</td>
+                    <td role="cell" class="incidentService" data-label="Serviço">Indexação de pesquisa</td>
+                    <td role="cell" class="incidentStatus" data-label="Status"><span lang="en-US">open</span></td>
+                    <td role="cell" class="incidentPriority" data-label="Prioridade"><span lang="en-US">medium</span></td>
+                </tr>
+
+                <tr role="row"
+                    class="incident investigating"
+                    data-code="INC-1048"
+                    data-status="investigating"
+                    data-priority="high"
+                >
+                    <td role="cell" class="incidentCode" data-label="Código">INC-1048</td>
+                    <td role="cell" class="incidentService" data-label="Serviço">Entrega de e-mails</td>
+                    <td role="cell" class="incidentStatus" data-label="Status"><span lang="en-US">investigating</span></td>
+                    <td role="cell" class="incidentPriority" data-label="Prioridade"><span lang="en-US">high</span></td>
+                </tr>
+
+                <tr role="row"
+                    class="incident critical resolved"
+                    data-code="INC-1049"
+                    data-status="resolved"
+                    data-priority="critical"
+                >
+                    <td role="cell" class="incidentCode" data-label="Código">INC-1049</td>
+                    <td role="cell" class="incidentService" data-label="Serviço">Processamento de checkout</td>
+                    <td role="cell" class="incidentStatus" data-label="Status"><span lang="en-US">resolved</span></td>
+                    <td role="cell" class="incidentPriority" data-label="Prioridade"><span lang="en-US">critical</span></td>
+                </tr>
+
+                <tr role="row"
+                    class="incident open"
+                    data-code="INC-1050"
+                    data-status="open"
+                    data-priority="low"
+                >
+                    <td role="cell" class="incidentCode" data-label="Código">INC-1050</td>
+                    <td role="cell" class="incidentService" data-label="Serviço">Dashboard de analytics</td>
+                    <td role="cell" class="incidentStatus" data-label="Status"><span lang="en-US">open</span></td>
+                    <td role="cell" class="incidentPriority" data-label="Prioridade"><span lang="en-US">low</span></td>
+                </tr>
+
+                <tr role="row"
+                    class="incident investigating"
+                    data-code="INC-1051"
+                    data-status="investigating"
+                    data-priority="medium"
+                >
+                    <td role="cell" class="incidentCode" data-label="Código">INC-1051</td>
+                    <td role="cell" class="incidentService" data-label="Serviço">Upload de arquivos</td>
+                    <td role="cell" class="incidentStatus" data-label="Status"><span lang="en-US">investigating</span></td>
+                    <td role="cell" class="incidentPriority" data-label="Prioridade"><span lang="en-US">medium</span></td>
+                </tr>
+
+                <tr role="row"
+                    class="incident resolved"
+                    data-code="INC-1052"
+                    data-status="resolved"
+                    data-priority="high"
+                >
+                    <td role="cell" class="incidentCode" data-label="Código">INC-1052</td>
+                    <td role="cell" class="incidentService" data-label="Serviço">Importação de clientes</td>
+                    <td role="cell" class="incidentStatus" data-label="Status"><span lang="en-US">resolved</span></td>
+                    <td role="cell" class="incidentPriority" data-label="Prioridade"><span lang="en-US">high</span></td>
+                </tr>
+
+                <tr role="row"
+                    class="incident critical open"
+                    data-code="INC-1053"
+                    data-status="open"
+                    data-priority="critical"
+                >
+                    <td role="cell" class="incidentCode" data-label="Código">INC-1053</td>
+                    <td role="cell" class="incidentService" data-label="Serviço">Disparo de webhooks</td>
+                    <td role="cell" class="incidentStatus" data-label="Status"><span lang="en-US">open</span></td>
+                    <td role="cell" class="incidentPriority" data-label="Prioridade"><span lang="en-US">critical</span></td>
+                </tr>
+
+                <tr role="row"
+                    class="incident resolved"
+                    data-code="INC-1054"
+                    data-status="resolved"
+                    data-priority="low"
+                >                           
+                    <td role="cell" class="incidentCode" data-label="Código">INC-1054</td>
+                    <td role="cell" class="incidentService" data-label="Serviço">Monitoramento de infraestrutura</td>
+                    <td role="cell" class="incidentStatus" data-label="Status"><span lang="en-US">resolved</span></td>
+                    <td role="cell" class="incidentPriority" data-label="Prioridade"><span lang="en-US">low</span></td>
+                </tr>
+
+                <tr role="row"
+                    class="incident critical investigating"
+                    data-code="INC-1055"
+                    data-status="investigating"
+                    data-priority="critical"
+                >
+                    <td role="cell" class="incidentCode" data-label="Código">INC-1055</td>
+                    <td role="cell" class="incidentService" data-label="Serviço">Agendador de tarefas</td>
+                    <td role="cell" class="incidentStatus" data-label="Status"><span lang="en-US">investigating</span></td>
+                    <td role="cell" class="incidentPriority" data-label="Prioridade"><span lang="en-US">critical</span></td>
+                </tr>
+
+                <tr role="row"
+                    class="incident open"
+                    data-code="INC-1056"
+                    data-status="open"
+                    data-priority="high"
+                >
+                    <td role="cell" class="incidentCode" data-label="Código">INC-1056</td>
+                    <td role="cell" class="incidentService" data-label="Serviço">Cache do catálogo de produtos</td>
+                    <td role="cell" class="incidentStatus" data-label="Status"><span lang="en-US">open</span></td>
+                    <td role="cell" class="incidentPriority" data-label="Prioridade"><span lang="en-US">high</span></td>
+                </tr>
+
+                <tr role="row"
+                    class="incident critical open"
+                    data-code="INC-1057"
+                    data-status="open"
+                    data-priority="critical"
+                >
+                    <td role="cell" class="incidentCode" data-label="Código">INC-1057</td>
+                    <td role="cell" class="incidentService" data-label="Serviço">Autenticação de usuários</td>
+                    <td role="cell" class="incidentStatus" data-label="Status"><span lang="en-US">open</span></td>
+                    <td role="cell" class="incidentPriority" data-label="Prioridade"><span lang="en-US">critical</span></td>
+                </tr>
+
+                <tr role="row"
+                    class="incident investigating"
+                    data-code="INC-1058"
+                    data-status="investigating"
+                    data-priority="low"
+                >
+                    <td role="cell" class="incidentCode" data-label="Código">INC-1058</td>
+                    <td role="cell" class="incidentService" data-label="Serviço">Atualização de avatares</td>
+                    <td role="cell" class="incidentStatus" data-label="Status"><span lang="en-US">investigating</span></td>
+                    <td role="cell" class="incidentPriority" data-label="Prioridade"><span lang="en-US">low</span></td>
+                </tr>
+
+                <tr role="row"
+                    class="incident resolved"
+                    data-code="INC-1059"
+                    data-status="resolved"
+                    data-priority="medium"
+                >
+                    <td role="cell" class="incidentCode" data-label="Código">INC-1059</td>
+                    <td role="cell" class="incidentService" data-label="Serviço">Exportação de relatórios</td>
+                    <td role="cell" class="incidentStatus" data-label="Status"><span lang="en-US">resolved</span></td>
+                    <td role="cell" class="incidentPriority" data-label="Prioridade"><span lang="en-US">medium</span></td>
+                </tr>
+
+                <tr role="row"
+                    class="incident open"
+                    data-code="INC-1060"
+                    data-status="open"
+                    data-priority="high"
+                >
+                    <td role="cell" class="incidentCode" data-label="Código">INC-1060</td>
+                    <td role="cell" class="incidentService" data-label="Serviço">Sincronização de estoque</td>
+                    <td role="cell" class="incidentStatus" data-label="Status"><span lang="en-US">open</span></td>
+                    <td role="cell" class="incidentPriority" data-label="Prioridade"><span lang="en-US">high</span></td>
+                </tr>
+
+                <tr role="row"
+                    class="incident critical investigating"
+                    data-code="INC-1061"
+                    data-status="investigating"
+                    data-priority="critical"
+                >
+                    <td role="cell" class="incidentCode" data-label="Código">INC-1061</td>
+                    <td role="cell" class="incidentService" data-label="Serviço">Confirmação de pagamentos</td>
+                    <td role="cell" class="incidentStatus" data-label="Status"><span lang="en-US">investigating</span></td>
+                    <td role="cell" class="incidentPriority" data-label="Prioridade"><span lang="en-US">critical</span></td>
+                </tr>
+
+                <tr role="row"
+                    class="incident resolved"
+                    data-code="INC-1062"
+                    data-status="resolved"
+                    data-priority="low"
+                >
+                    <td role="cell" class="incidentCode" data-label="Código">INC-1062</td>
+                    <td role="cell" class="incidentService" data-label="Serviço">Exibição de preferências de perfil</td>
+                    <td role="cell" class="incidentStatus" data-label="Status"><span lang="en-US">resolved</span></td>
+                    <td role="cell" class="incidentPriority" data-label="Prioridade"><span lang="en-US">low</span></td>
+                </tr>
+
+                <tr role="row"
+                    class="incident open"
+                    data-code="INC-1063"
+                    data-status="open"
+                    data-priority="medium"
+                >
+                    <td role="cell" class="incidentCode" data-label="Código">INC-1063</td>
+                    <td role="cell" class="incidentService" data-label="Serviço">Envio de notificações push</td>
+                    <td role="cell" class="incidentStatus" data-label="Status"><span lang="en-US">open</span></td>
+                    <td role="cell" class="incidentPriority" data-label="Prioridade"><span lang="en-US">medium</span></td>
+                </tr>
+
+                <tr role="row"
+                    class="incident investigating"
+                    data-code="INC-1064"
+                    data-status="investigating"
+                    data-priority="high"
+                >
+                    <td role="cell" class="incidentCode" data-label="Código">INC-1064</td>
+                    <td role="cell" class="incidentService" data-label="Serviço">Geração de notas fiscais</td>
+                    <td role="cell" class="incidentStatus" data-label="Status"><span lang="en-US">investigating</span></td>
+                    <td role="cell" class="incidentPriority" data-label="Prioridade"><span lang="en-US">high</span></td>
+                </tr>
+
+                <tr role="row"
+                    class="incident critical resolved"
+                    data-code="INC-1065"
+                    data-status="resolved"
+                    data-priority="critical"
+                >
+                    <td role="cell" class="incidentCode" data-label="Código">INC-1065</td>
+                    <td role="cell" class="incidentService" data-label="Serviço">Restauração de backups</td>
+                    <td role="cell" class="incidentStatus" data-label="Status"><span lang="en-US">resolved</span></td>
+                    <td role="cell" class="incidentPriority" data-label="Prioridade"><span lang="en-US">critical</span></td>
+                </tr>
+
+                <tr role="row"
+                    class="incident resolved"
+                    data-code="INC-1066"
+                    data-status="resolved"
+                    data-priority="high"
+                >
+                    <td role="cell" class="incidentCode" data-label="Código">INC-1066</td>
+                    <td role="cell" class="incidentService" data-label="Serviço">Renovação de assinaturas</td>
+                    <td role="cell" class="incidentStatus" data-label="Status"><span lang="en-US">resolved</span></td>
+                    <td role="cell" class="incidentPriority" data-label="Prioridade"><span lang="en-US">high</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
