@@ -56,7 +56,7 @@ A implementação ainda possui pontos de melhoria: os filtros de estado e priori
 
 ## Visualização online
 
-_Adicionar o link do GitHub Pages após a publicação do checkpoint._
+[Acessar o checkpoint no GitHub Pages](https://juniohgd.github.io/html-foundations-lab/practice/html-01-estrutura-do-documento/checkpoint/index.html)
 
 ## Aprendizado principal
 
