@@ -9,7 +9,7 @@ Incorporar imagens e mídias sem comprometer contexto, acessibilidade e desempen
 
 ## Competências
 
-- Usar imagens com finalidade e texto alternativo corretos.
+- Usar imagens com finalidade, texto alternativo e dimensões apropriados, evitando mudanças desnecessárias no layout.
 - Escolher legenda, dimensões e comportamento responsivo adequados.
 - Reconhecer os recursos nativos básicos para áudio, vídeo e legendas.
 

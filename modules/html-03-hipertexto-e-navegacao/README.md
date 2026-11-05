@@ -9,7 +9,7 @@ Conectar documentos e seções por links claros, seguros e acessíveis.
 
 ## Competências
 
-- Criar navegação entre documentos e âncoras internas.
+- Criar navegação entre arquivos, páginas e âncoras internas, com caminhos relativos corretos.
 - Distinguir links de ações executadas por botões.
 - Estruturar menus de navegação semânticos.
 
