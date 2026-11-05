@@ -1,33 +1,3 @@
-# HTML-05.02 — Áudio e Vídeo
+# html-05.02-audio-e-video
 
-Inserir elementos `<audio>` e `<video>` com suporte a múltiplas fontes e fallback.
-
-## Fundamentos
-
-- `<audio controls src="arquivo.mp3">` para som, e `<video controls>` para vídeo. Atributo `controls` ativa os controles padrão (play/pause/volume).
-- Incluir múltiplas fontes com `<source src="..." type="...">` dentro de `<video>` ou `<audio>` para format compatibility.
-- Conteúdo dentro das tags (`<p>` ou `<a>`) atua como fallback (ex.: link de download) caso o elemento não seja suportado.
-- Legendas e transcrições: `<track kind="captions">` (via WebVTT) ou fornecer texto alternativo para acessibilidade. Vídeos devem ter legendas/transcrição para surdos e audiodescrição para cegos.
-
-## Competências
-
-Ao concluir esta unidade, devo conseguir:
-
-- Incorporar um player de áudio e/ou vídeo simples com pelo menos duas fontes.
-- Fornecer texto alternativo ou link como fallback (ex.: “seu navegador não suporta, faça download”).
-- Opcional: adicionar `<track>` para legendas (comente a importância).
-
-## Prática
-
-Os exercícios desta unidade aplicam os fundamentos estudados por meio de implementação, análise, diagnóstico e justificativa quando pertinentes.
-
-[Ver exercícios →](./exercises/)
-
-
----
-
-### Navegação
-
-[← HTML-05.01 — Imagens e figuras](../html-05.01-imagens-e-figuras/) ·
-[↑ HTML-05 — Conteúdo Multimídia e Visual](../README.md) ·
-[Checkpoint HTML-05 →](../checkpoint/)
+[Consultar conteúdo e arquivos no módulo correspondente](https://github.com/JunioHGD/html-foundations-lab/tree/main/modules/html-05-conteudo-multimidia-e-visual).

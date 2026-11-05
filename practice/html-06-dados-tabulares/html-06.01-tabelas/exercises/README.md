@@ -1,5 +1,3 @@
-# Exercícios
+# exercises
 
-Este diretório reunirá os exercícios formais desta unidade.
-
-Cada exercício será criado em seu próprio subdiretório, com especificação, implementação e documentação da solução quando aplicável.
+[Consultar conteúdo e arquivos no módulo correspondente](https://github.com/JunioHGD/html-foundations-lab/tree/main/modules/html-06-dados-tabulares).
