@@ -2,6 +2,12 @@
 
 Exercício integrador do módulo **Estrutura do Documento**. O painel simula a conferência de critérios necessários à publicação de um produto fictício.
 
+## Tópicos do módulo
+
+- **HTML-01.01:** estrutura geral, sintaxe e aninhamento.
+- **HTML-01.02:** cabeçalho, metadados e recursos externos.
+- **HTML-01.03:** corpo do documento e atributos globais.
+
 ## Funcionalidades
 
 - Exibição e filtragem de critérios por estado e prioridade.
@@ -16,6 +22,10 @@ Estrutura HTML, metadados, atributos `id`, `class`, `data-*`, integração com C
 ## Tecnologias
 
 HTML, CSS e JavaScript. Não utiliza backend nem persistência de dados.
+
+## Critérios de conclusão
+
+Construir um documento HTML válido, referenciar CSS e JavaScript corretamente e justificar o uso dos atributos e metadados fundamentais.
 
 ## Links
 

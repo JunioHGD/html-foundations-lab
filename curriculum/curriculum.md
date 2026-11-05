@@ -14,13 +14,13 @@ Desenvolver os fundamentos essenciais de HTML para construir interfaces web sem�
 
 | Módulo | Conteúdo | Exercício integrador |
 | --- | --- | --- |
-| [HTML-01 — Estrutura do Documento](#html-01--estrutura-do-documento) | 3 tópico(s) | Janela de Publicação — Atlas 2.4.0 |
-| [HTML-02 — Conteúdo e Hierarquia Textual](#html-02--conteudo-e-hierarquia-textual) | 3 tópico(s) | Documento técnico estruturado |
-| [HTML-03 — Hipertexto e Navegação](#html-03--hipertexto-e-navegacao) | 2 tópico(s) | Central de navegação |
-| [HTML-04 — Estrutura Semântica de Conteúdo](#html-04--estrutura-semantica-de-conteudo) | 2 tópico(s) | Portal de artigos |
-| [HTML-05 — Conteúdo Multimídia e Visual](#html-05--conteudo-multimidia-e-visual) | 2 tópico(s) | Galeria editorial acessível |
-| [HTML-06 — Dados Tabulares](#html-06--dados-tabulares) | 1 tópico(s) | Painel de dados tabulares |
-| [HTML-07 — Formulários e Dados](#html-07--formularios-e-dados) | 3 tópico(s) | Formulário de solicitação |
+| [HTML-01 — Estrutura do Documento](../modules/html-01-estrutura-do-documento/) | 3 tópicos | Janela de Publicação — Atlas 2.4.0 |
+| [HTML-02 — Conteúdo e Hierarquia Textual](../modules/html-02-conteudo-e-hierarquia-textual/) | 3 tópicos | Documento técnico estruturado |
+| [HTML-03 — Hipertexto e Navegação](../modules/html-03-hipertexto-e-navegacao/) | 2 tópicos | Central de navegação |
+| [HTML-04 — Estrutura Semântica de Conteúdo](../modules/html-04-estrutura-semantica-de-conteudo/) | 2 tópicos | Portal de artigos |
+| [HTML-05 — Conteúdo Multimídia e Visual](../modules/html-05-conteudo-multimidia-e-visual/) | 2 tópicos | Galeria editorial acessível |
+| [HTML-06 — Dados Tabulares](../modules/html-06-dados-tabulares/) | 1 tópico | Painel de dados tabulares |
+| [HTML-07 — Formulários e Dados](../modules/html-07-formularios-e-dados/) | 3 tópicos | Formulário de solicitação |
 
 ---
 
