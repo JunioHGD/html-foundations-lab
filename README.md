@@ -37,3 +37,7 @@ Cada módulo reúne os tópicos de estudo e um **exercício integrador**. Práti
 HTML, com CSS e JavaScript quando necessários à proposta de cada exercício.
 
 **[Explorar aplicações publicadas](https://juniohgd.github.io/html-foundations-lab/html-lab/)** · [Consultar currículo](./curriculum/curriculum.md)
+
+## Continuidade do estudo
+
+Depois de consolidar a estrutura e a semântica do HTML, avance para o [CSS Foundations Lab](https://github.com/JunioHGD/css-foundations-lab). O [JavaScript Foundations Lab](https://github.com/JunioHGD/javascript--foundations-lab) acrescentará lógica e comportamento às interfaces.

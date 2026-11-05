@@ -1,10 +1,10 @@
 %PDF-1.4
-%ASCII-encoded document
+% Source curriculum document
 1 0 obj
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [ 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R ] /Count 5 >>
+<< /Type /Pages /Count 6 /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R] >>
 endobj
 3 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
@@ -16,221 +16,268 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
 endobj
 6 0 obj
-<< /Length 4570 >>
+<< /Length 4618 >>
 stream
-0.100 0.450 0.390 RG 0.7 w 52 809 m 543.28 809 l S
-0.360 0.440 0.410 rg BT /F2 8 Tf 1 0 0 1 52 817 Tm (HTML FOUNDATIONS LAB  /  CURRICULO) Tj ET
-0.100 0.210 0.190 rg BT /F2 21 Tf 1 0 0 1 52 777.00 Tm (HTML Foundations Lab \227 Curr\355culo) Tj ET
-0.100 0.450 0.390 rg BT /F2 14.7 Tf 1 0 0 1 52 725.00 Tm (Prop\363sito) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 698.00 Tm (Desenvolver os fundamentos essenciais de HTML para construir interfaces web sem\342nticas, acess\355veis e capazes de) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 683.00 Tm (se integrar a CSS, JavaScript e aplica\347\365es backend.) Tj ET
-0.100 0.450 0.390 rg BT /F2 14.7 Tf 1 0 0 1 52 650.00 Tm (M\351todo de estudo) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.45 Tf 1 0 0 1 62 623.00 Tm (1. Estudar os t\363picos do m\363dulo na ordem proposta e experimentar conceitos isolados quando necess\341rio.) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.45 Tf 1 0 0 1 62 606.80 Tm (2. Aplicar as compet\352ncias em um exerc\355cio integrador por m\363dulo.) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.45 Tf 1 0 0 1 62 590.60 Tm (3. Revisar o resultado, justificar as escolhas e registrar o que foi aprendido.) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 572.40 Tm (Crit\351rio de conclus\343o: conseguir explicar os conceitos, utiliz\341-los sem seguir um tutorial passo a passo e identificar) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 557.40 Tm (erros relevantes. N\343o \351 necess\341rio dominar recursos complementares para avan\347ar.) Tj ET
-0.100 0.450 0.390 rg BT /F2 14.7 Tf 1 0 0 1 52 524.40 Tm (Percurso) Tj ET
-0.100 0.210 0.190 rg BT /F1 8.9 Tf 1 0 0 1 58 495.40 Tm (HTML-01 \227 Estrutura do Documento / 3 t\363picos / Janela de Publica\347\343o \227 Atlas 2.4.0) Tj ET
-0.100 0.210 0.190 rg BT /F1 8.9 Tf 1 0 0 1 58 480.40 Tm (HTML-02 \227 Conte\372do e Hierarquia Textual / 3 t\363picos / Documento t\351cnico estruturado) Tj ET
-0.100 0.210 0.190 rg BT /F1 8.9 Tf 1 0 0 1 58 465.40 Tm (HTML-03 \227 Hipertexto e Navega\347\343o / 2 t\363picos / Central de navega\347\343o) Tj ET
-0.100 0.210 0.190 rg BT /F1 8.9 Tf 1 0 0 1 58 450.40 Tm (HTML-04 \227 Estrutura Sem\342ntica de Conte\372do / 2 t\363picos / Portal de artigos) Tj ET
-0.100 0.210 0.190 rg BT /F1 8.9 Tf 1 0 0 1 58 435.40 Tm (HTML-05 \227 Conte\372do Multim\355dia e Visual / 2 t\363picos / Galeria editorial acess\355vel) Tj ET
-0.100 0.210 0.190 rg BT /F1 8.9 Tf 1 0 0 1 58 420.40 Tm (HTML-06 \227 Dados Tabulares / 1 t\363pico / Painel de dados tabulares) Tj ET
-0.100 0.210 0.190 rg BT /F1 8.9 Tf 1 0 0 1 58 405.40 Tm (HTML-07 \227 Formul\341rios e Dados / 3 t\363picos / Formul\341rio de solicita\347\343o) Tj ET
-0.100 0.450 0.390 rg BT /F2 14.7 Tf 1 0 0 1 52 368.40 Tm (HTML-01 \227 Estrutura do Documento) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 339.40 Tm (Objetivo: Construir documentos HTML v\341lidos e compreender a rela\347\343o entre c\363digo-fonte, interpreta\347\343o pelo) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 324.40 Tm (navegador e DOM.) Tj ET
-0.100 0.210 0.190 rg BT /F2 10.7 Tf 1 0 0 1 52 298.40 Tm (T\363picos) Tj ET
-0.100 0.210 0.190 rg BT /F2 10 Tf 1 0 0 1 52 272.40 Tm (HTML-01.01 \227 Estrutura geral) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 255.40 Tm (<!doctype html>, <html>, <head>, <body>, sintaxe, aninhamento, coment\341rios e elementos vazios; idioma do documento) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 240.40 Tm (com lang.) Tj ET
-0.100 0.210 0.190 rg BT /F2 10 Tf 1 0 0 1 52 216.40 Tm (HTML-01.02 \227 Cabe\347alho e recursos) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 199.40 Tm (<title>, codifica\347\343o UTF-8, viewport, descri\347\343o da p\341gina, folhas de estilo, scripts externos e defer.) Tj ET
-0.100 0.210 0.190 rg BT /F2 10 Tf 1 0 0 1 52 175.40 Tm (HTML-01.03 \227 Corpo e atributos globais) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 158.40 Tm (Organiza\347\343o do conte\372do, atributos id, class, data-* e no\347\365es da rela\347\343o HTML\226CSS\226DOM.) Tj ET
-0.100 0.210 0.190 rg BT /F2 10.7 Tf 1 0 0 1 52 132.40 Tm (Compet\352ncias) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.45 Tf 1 0 0 1 62 113.40 Tm (- Criar um documento v\341lido com idioma e metadados apropriados.) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.45 Tf 1 0 0 1 62 97.20 Tm (- Referenciar corretamente estilos e scripts externos.) Tj ET
-0.800 0.870 0.830 RG 0.65 w 52 54 m 543.28 54 l S
-0.360 0.440 0.410 rg BT /F1 8 Tf 1 0 0 1 52 39 Tm (HTML Foundations Lab - Curriculo) Tj ET
-0.360 0.440 0.410 rg BT /F1 8 Tf 1 0 0 1 532.28 39 Tm (1) Tj ET
+0.090 0.430 0.370 rg 0 830.89 595.28 11 re f
+0.360 0.430 0.450 rg BT /F2 8.7 Tf 1 0 0 1 50 806 Tm (HTML FOUNDATIONS LAB / GRADE CURRICULAR) Tj ET
+0.820 0.860 0.840 RG .7 w 50 793 m 545.28 793 l S
+0.100 0.170 0.190 rg BT /F2 20 Tf 1 0 0 1 50 762.00 Tm (HTML Foundations Lab \227 Curr\355culo) Tj ET
+0.090 0.430 0.370 rg BT /F2 14.3 Tf 1 0 0 1 50 712.00 Tm (Prop\363sito) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 685.00 Tm (Desenvolver os fundamentos essenciais de HTML para construir interfaces web sem\342nticas, acess\355veis e) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 670.30 Tm (capazes de se integrar a CSS, JavaScript e aplica\347\365es backend.) Tj ET
+0.090 0.430 0.370 rg BT /F2 14.3 Tf 1 0 0 1 50 639.60 Tm (M\351todo de estudo) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.15 Tf 1 0 0 1 60 612.60 Tm (1. Estudar os t\363picos do m\363dulo na ordem proposta e experimentar conceitos isolados quando necess\341rio.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.15 Tf 1 0 0 1 60 596.50 Tm (2. Aplicar as compet\352ncias em um exerc\355cio integrador por m\363dulo.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.15 Tf 1 0 0 1 60 580.40 Tm (3. Revisar o resultado, justificar as escolhas e registrar o que foi aprendido.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 559.30 Tm (Crit\351rio de conclus\343o: conseguir explicar os conceitos, utiliz\341-los sem seguir um tutorial passo a passo e) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 544.60 Tm (identificar erros relevantes. N\343o \351 necess\341rio dominar recursos complementares para avan\347ar.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 521.90 Tm (Responsabilidade do Lab: HTML define estrutura, significado e comportamento nativo de elementos. CSS e) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 507.20 Tm (JavaScript podem apoiar as aplica\347\365es, mas o dom\355nio deles n\343o \351 pr\351-requisito para concluir um m\363dulo de) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 492.50 Tm (HTML. A acessibilidade sem\342ntica deve ser aplicada desde os primeiros exerc\355cios, n\343o somente ao final do) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 477.80 Tm (percurso.) Tj ET
+0.090 0.430 0.370 rg BT /F2 14.3 Tf 1 0 0 1 50 446.10 Tm (Percurso) Tj ET
+0.100 0.170 0.190 rg BT /F1 8.9 Tf 1 0 0 1 57 417.10 Tm (HTML-01 \227 Estrutura do Documento - Janela de Publica\347\343o \227 Atlas 2.4.0) Tj ET
+0.100 0.170 0.190 rg BT /F1 8.9 Tf 1 0 0 1 57 402.60 Tm (HTML-02 \227 Conte\372do e Hierarquia Textual - Documento t\351cnico estruturado) Tj ET
+0.100 0.170 0.190 rg BT /F1 8.9 Tf 1 0 0 1 57 388.10 Tm (HTML-03 \227 Hipertexto e Navega\347\343o - Central de navega\347\343o) Tj ET
+0.100 0.170 0.190 rg BT /F1 8.9 Tf 1 0 0 1 57 373.60 Tm (HTML-04 \227 Estrutura Sem\342ntica de Conte\372do - Portal de artigos) Tj ET
+0.100 0.170 0.190 rg BT /F1 8.9 Tf 1 0 0 1 57 359.10 Tm (HTML-05 \227 Conte\372do Multim\355dia e Visual - Galeria editorial acess\355vel) Tj ET
+0.100 0.170 0.190 rg BT /F1 8.9 Tf 1 0 0 1 57 344.60 Tm (HTML-06 \227 Dados Tabulares - Painel de dados tabulares) Tj ET
+0.100 0.170 0.190 rg BT /F1 8.9 Tf 1 0 0 1 57 330.10 Tm (HTML-07 \227 Formul\341rios e Dados - Formul\341rio de solicita\347\343o) Tj ET
+0.090 0.430 0.370 rg BT /F2 14.3 Tf 1 0 0 1 50 292.60 Tm (HTML-01 \227 Estrutura do Documento) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 260.60 Tm (Objetivo: Construir documentos HTML v\341lidos e compreender a rela\347\343o entre c\363digo-fonte, interpreta\347\343o) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 245.90 Tm (pelo navegador e DOM.) Tj ET
+0.100 0.170 0.190 rg BT /F2 11.1 Tf 1 0 0 1 50 218.20 Tm (T\363picos) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 192.20 Tm (HTML-01.01 \227 Estrutura geral) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 174.50 Tm (<!doctype html>, <html>, <head>, <body>, sintaxe, aninhamento, coment\341rios e elementos vazios; idioma do) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 159.80 Tm (documento com lang.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 138.10 Tm (HTML-01.02 \227 Cabe\347alho e recursos) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 120.40 Tm (<title>, codifica\347\343o UTF-8, viewport, descri\347\343o da p\341gina, folhas de estilo, scripts externos e defer.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 98.70 Tm (HTML-01.03 \227 Corpo e atributos globais) Tj ET
+0.820 0.860 0.840 RG .6 w 50 54 m 545.28 54 l S
+0.360 0.430 0.450 rg BT /F1 8 Tf 1 0 0 1 50 39 Tm (HTML Foundations Lab - Curriculo) Tj ET
+0.360 0.430 0.450 rg BT /F2 8 Tf 1 0 0 1 529.28 39 Tm (1) Tj ET
 endstream
 endobj
 7 0 obj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
 endobj
 8 0 obj
-<< /Length 4251 >>
+<< /Length 4412 >>
 stream
-0.100 0.450 0.390 RG 0.7 w 52 809 m 543.28 809 l S
-0.360 0.440 0.410 rg BT /F2 8 Tf 1 0 0 1 52 817 Tm (HTML FOUNDATIONS LAB  /  CURRICULO) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.45 Tf 1 0 0 1 62 788.00 Tm (- Distinguir id, class e data-* sem confundir estrutura, estilo e estado.) Tj ET
-0.100 0.210 0.190 rg BT /F2 10.7 Tf 1 0 0 1 52 762.80 Tm (Exerc\355cio integrador) Tj ET
-0.100 0.210 0.190 rg BT /F2 10 Tf 1 0 0 1 52 739.80 Tm (Janela de Publica\347\343o \227 Atlas 2.4.0. Aplicar a estrutura documental e os atributos HTML em um painel) Tj ET
-0.100 0.210 0.190 rg BT /F2 10 Tf 1 0 0 1 52 724.80 Tm (interativo, com HTML, CSS e JavaScript.) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 705.80 Tm (Abrir m\363dulo) Tj ET
-0.100 0.450 0.390 rg BT /F2 14.7 Tf 1 0 0 1 52 666.80 Tm (HTML-02 \227 Conte\372do e Hierarquia Textual) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 637.80 Tm (Objetivo: Estruturar texto com hierarquia e significado, priorizando legibilidade e acessibilidade.) Tj ET
-0.100 0.210 0.190 rg BT /F2 10.7 Tf 1 0 0 1 52 611.80 Tm (T\363picos) Tj ET
-0.100 0.210 0.190 rg BT /F2 10 Tf 1 0 0 1 52 585.80 Tm (HTML-02.01 \227 T\355tulos e par\341grafos) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 568.80 Tm (Hierarquia <h1>\226<h6>, par\341grafos <p> e escolha do n\355vel de t\355tulo pelo significado, n\343o pela apar\352ncia.) Tj ET
-0.100 0.210 0.190 rg BT /F2 10 Tf 1 0 0 1 52 544.80 Tm (HTML-02.02 \227 Listas) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 527.80 Tm (Listas ordenadas <ol>, n\343o ordenadas <ul> e descritivas <dl>; aninhamento quando necess\341rio.) Tj ET
-0.100 0.210 0.190 rg BT /F2 10 Tf 1 0 0 1 52 503.80 Tm (HTML-02.03 \227 Sem\342ntica textual) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 486.80 Tm (\312nfase e import\342ncia com <em>/<strong>, al\351m de <code>, <abbr>, <time> e outros elementos conforme o conte\372do.) Tj ET
-0.100 0.210 0.190 rg BT /F2 10.7 Tf 1 0 0 1 52 460.80 Tm (Compet\352ncias) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.45 Tf 1 0 0 1 62 441.80 Tm (- Organizar textos com n\355veis de t\355tulo coerentes.) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.45 Tf 1 0 0 1 62 425.60 Tm (- Escolher a estrutura de lista adequada \340 informa\347\343o.) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.45 Tf 1 0 0 1 62 409.40 Tm (- Aplicar marca\347\343o textual sem\342ntica sem substituir CSS por elementos de significado.) Tj ET
-0.100 0.210 0.190 rg BT /F2 10.7 Tf 1 0 0 1 52 384.20 Tm (Exerc\355cio integrador) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 365.20 Tm (Documento t\351cnico estruturado. Criar uma p\341gina de documenta\347\343o com se\347\365es, listas, exemplos de c\363digo e) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 350.20 Tm (refer\352ncias textuais acess\355veis.) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 331.20 Tm (Abrir m\363dulo) Tj ET
-0.100 0.450 0.390 rg BT /F2 14.7 Tf 1 0 0 1 52 292.20 Tm (HTML-03 \227 Hipertexto e Navega\347\343o) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 263.20 Tm (Objetivo: Conectar documentos e se\347\365es por links claros, seguros e acess\355veis.) Tj ET
-0.100 0.210 0.190 rg BT /F2 10.7 Tf 1 0 0 1 52 237.20 Tm (T\363picos) Tj ET
-0.100 0.210 0.190 rg BT /F2 10 Tf 1 0 0 1 52 211.20 Tm (HTML-03.01 \227 Links e URLs) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 194.20 Tm (Elemento <a>, href, URLs relativas e absolutas, \342ncoras, mailto: e tel:; distin\347\343o entre link e bot\343o.) Tj ET
-0.100 0.210 0.190 rg BT /F2 10 Tf 1 0 0 1 52 170.20 Tm (HTML-03.02 \227 Navega\347\343o) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 153.20 Tm (<nav>, organiza\347\343o de menus, texto descritivo de links, identifica\347\343o de regi\365es de navega\347\343o e uso criterioso de) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 138.20 Tm (target/rel.) Tj ET
-0.100 0.210 0.190 rg BT /F2 10.7 Tf 1 0 0 1 52 112.20 Tm (Compet\352ncias) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.45 Tf 1 0 0 1 62 93.20 Tm (- Criar navega\347\343o entre documentos e \342ncoras internas.) Tj ET
-0.800 0.870 0.830 RG 0.65 w 52 54 m 543.28 54 l S
-0.360 0.440 0.410 rg BT /F1 8 Tf 1 0 0 1 52 39 Tm (HTML Foundations Lab - Curriculo) Tj ET
-0.360 0.440 0.410 rg BT /F1 8 Tf 1 0 0 1 532.28 39 Tm (2) Tj ET
+0.090 0.430 0.370 rg 0 830.89 595.28 11 re f
+0.360 0.430 0.450 rg BT /F2 8.7 Tf 1 0 0 1 50 806 Tm (HTML FOUNDATIONS LAB / GRADE CURRICULAR) Tj ET
+0.820 0.860 0.840 RG .7 w 50 793 m 545.28 793 l S
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 772.00 Tm (Organiza\347\343o do conte\372do, atributos id, class, data-, hidden e title quando apropriados; identifica\347\343o) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 757.30 Tm (consistente de elementos e no\347\365es da rela\347\343o HTML\226CSS\226DOM. Evitar depender de div e span quando existir) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 742.60 Tm (elemento sem\342ntico adequado.) Tj ET
+0.100 0.170 0.190 rg BT /F2 11.1 Tf 1 0 0 1 50 715.90 Tm (Compet\352ncias) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.15 Tf 1 0 0 1 60 694.90 Tm (- Criar um documento v\341lido com idioma e metadados apropriados.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.15 Tf 1 0 0 1 60 678.80 Tm (- Referenciar corretamente estilos e scripts externos.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.15 Tf 1 0 0 1 60 662.70 Tm (- Distinguir id, class e data- sem confundir estrutura, estilo e estado.) Tj ET
+0.100 0.170 0.190 rg BT /F2 11.1 Tf 1 0 0 1 50 636.60 Tm (Exerc\355cio integrador) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 612.60 Tm (Janela de Publica\347\343o \227 Atlas 2.4.0. Aplicar a estrutura documental e os atributos HTML em um painel) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 597.90 Tm (interativo, com HTML, CSS e JavaScript.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 578.20 Tm (Abrir m\363dulo) Tj ET
+0.090 0.430 0.370 rg BT /F2 14.3 Tf 1 0 0 1 50 538.50 Tm (HTML-02 \227 Conte\372do e Hierarquia Textual) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 506.50 Tm (Objetivo: Estruturar texto com hierarquia e significado, priorizando legibilidade e acessibilidade.) Tj ET
+0.100 0.170 0.190 rg BT /F2 11.1 Tf 1 0 0 1 50 478.80 Tm (T\363picos) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 452.80 Tm (HTML-02.01 \227 T\355tulos e par\341grafos) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 435.10 Tm (Hierarquia <h1>\226<h6>, par\341grafos <p> e escolha do n\355vel de t\355tulo pelo significado, n\343o pela apar\352ncia.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 413.40 Tm (HTML-02.02 \227 Listas) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 395.70 Tm (Listas ordenadas <ol>, n\343o ordenadas <ul> e descritivas <dl>; aninhamento quando necess\341rio.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 374.00 Tm (HTML-02.03 \227 Sem\342ntica textual) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 356.30 Tm (\312nfase e import\342ncia com <em>/<strong>, al\351m de <code>/<pre> para exemplos, <abbr>, <time> e cita\347\365es) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 341.60 Tm (quando pertinentes. Escapar caracteres reservados do HTML \(&amp;, &lt;, &gt;\) ao exibir c\363digo e texto) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 326.90 Tm (literal.) Tj ET
+0.100 0.170 0.190 rg BT /F2 11.1 Tf 1 0 0 1 50 300.20 Tm (Compet\352ncias) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.15 Tf 1 0 0 1 60 279.20 Tm (- Organizar textos com n\355veis de t\355tulo coerentes.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.15 Tf 1 0 0 1 60 263.10 Tm (- Escolher a estrutura de lista adequada \340 informa\347\343o.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.15 Tf 1 0 0 1 60 247.00 Tm (- Aplicar marca\347\343o textual sem\342ntica sem substituir CSS por elementos de significado.) Tj ET
+0.100 0.170 0.190 rg BT /F2 11.1 Tf 1 0 0 1 50 220.90 Tm (Exerc\355cio integrador) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 196.90 Tm (Documento t\351cnico estruturado. Criar uma p\341gina de documenta\347\343o com se\347\365es, listas, exemplos de c\363digo e) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 182.20 Tm (refer\352ncias textuais acess\355veis.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 162.50 Tm (Abrir m\363dulo) Tj ET
+0.090 0.430 0.370 rg BT /F2 14.3 Tf 1 0 0 1 50 122.80 Tm (HTML-03 \227 Hipertexto e Navega\347\343o) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 90.80 Tm (Objetivo: Conectar documentos e se\347\365es por links claros, seguros e acess\355veis.) Tj ET
+0.820 0.860 0.840 RG .6 w 50 54 m 545.28 54 l S
+0.360 0.430 0.450 rg BT /F1 8 Tf 1 0 0 1 50 39 Tm (HTML Foundations Lab - Curriculo) Tj ET
+0.360 0.430 0.450 rg BT /F2 8 Tf 1 0 0 1 529.28 39 Tm (2) Tj ET
 endstream
 endobj
 9 0 obj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
 endobj
 10 0 obj
-<< /Length 4386 >>
+<< /Length 4169 >>
 stream
-0.100 0.450 0.390 RG 0.7 w 52 809 m 543.28 809 l S
-0.360 0.440 0.410 rg BT /F2 8 Tf 1 0 0 1 52 817 Tm (HTML FOUNDATIONS LAB  /  CURRICULO) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.45 Tf 1 0 0 1 62 788.00 Tm (- Distinguir links de a\347\365es executadas por bot\365es.) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.45 Tf 1 0 0 1 62 771.80 Tm (- Estruturar menus de navega\347\343o sem\342nticos.) Tj ET
-0.100 0.210 0.190 rg BT /F2 10.7 Tf 1 0 0 1 52 746.60 Tm (Exerc\355cio integrador) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 727.60 Tm (Central de navega\347\343o. Criar duas ou mais p\341ginas interligadas, com menu, links internos e navega\347\343o acess\355vel.) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 708.60 Tm (Abrir m\363dulo) Tj ET
-0.100 0.450 0.390 rg BT /F2 14.7 Tf 1 0 0 1 52 669.60 Tm (HTML-04 \227 Estrutura Sem\342ntica de Conte\372do) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 640.60 Tm (Objetivo: Escolher elementos estruturais de acordo com a fun\347\343o do conte\372do.) Tj ET
-0.100 0.210 0.190 rg BT /F2 10.7 Tf 1 0 0 1 52 614.60 Tm (T\363picos) Tj ET
-0.100 0.210 0.190 rg BT /F2 10 Tf 1 0 0 1 52 588.60 Tm (HTML-04.01 \227 Regi\365es da p\341gina) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 571.60 Tm (<header>, <main> e <footer>; contexto de uso na p\341gina e em se\347\365es.) Tj ET
-0.100 0.210 0.190 rg BT /F2 10 Tf 1 0 0 1 52 547.60 Tm (HTML-04.02 \227 Se\347\365es e conte\372do independente) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 530.60 Tm (<section>, <article>, <aside> e <div>; significado, hierarquia e r\363tulos quando necess\341rios.) Tj ET
-0.100 0.210 0.190 rg BT /F2 10.7 Tf 1 0 0 1 52 504.60 Tm (Compet\352ncias) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.45 Tf 1 0 0 1 62 485.60 Tm (- Distribuir conte\372do em regi\365es semanticamente coerentes.) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.45 Tf 1 0 0 1 62 469.40 Tm (- Distinguir se\347\343o tem\341tica de conte\372do independente.) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.45 Tf 1 0 0 1 62 453.20 Tm (- Preferir elementos nativos com significado a cont\352ineres gen\351ricos sem necessidade.) Tj ET
-0.100 0.210 0.190 rg BT /F2 10.7 Tf 1 0 0 1 52 428.00 Tm (Exerc\355cio integrador) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 409.00 Tm (Portal de artigos. Organizar uma p\341gina com cabe\347alho, navega\347\343o, conte\372do principal, artigos, informa\347\365es) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 394.00 Tm (complementares e rodap\351.) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 375.00 Tm (Abrir m\363dulo) Tj ET
-0.100 0.450 0.390 rg BT /F2 14.7 Tf 1 0 0 1 52 336.00 Tm (HTML-05 \227 Conte\372do Multim\355dia e Visual) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 307.00 Tm (Objetivo: Incorporar imagens e m\355dias sem comprometer contexto, acessibilidade e desempenho.) Tj ET
-0.100 0.210 0.190 rg BT /F2 10.7 Tf 1 0 0 1 52 281.00 Tm (T\363picos) Tj ET
-0.100 0.210 0.190 rg BT /F2 10 Tf 1 0 0 1 52 255.00 Tm (HTML-05.01 \227 Imagens e figuras) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 238.00 Tm (<img>, src, texto alternativo informativo ou vazio para imagens decorativas, <figure>/<figcaption>, dimens\365es e no\347\365es) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 223.00 Tm (de imagens responsivas.) Tj ET
-0.100 0.210 0.190 rg BT /F2 10 Tf 1 0 0 1 52 199.00 Tm (HTML-05.02 \227 \301udio e v\355deo \227 complemento) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 182.00 Tm (Uso b\341sico de <audio>, <video>, <source> e <track>; controles, legendas e alternativas acess\355veis. Praticar em) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 167.00 Tm (profundidade quando o projeto exigir.) Tj ET
-0.100 0.210 0.190 rg BT /F2 10.7 Tf 1 0 0 1 52 141.00 Tm (Compet\352ncias) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.45 Tf 1 0 0 1 62 122.00 Tm (- Usar imagens com finalidade e texto alternativo corretos.) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.45 Tf 1 0 0 1 62 105.80 Tm (- Escolher legenda, dimens\365es e comportamento responsivo adequados.) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.45 Tf 1 0 0 1 62 89.60 Tm (- Reconhecer os recursos nativos b\341sicos para \341udio, v\355deo e legendas.) Tj ET
-0.800 0.870 0.830 RG 0.65 w 52 54 m 543.28 54 l S
-0.360 0.440 0.410 rg BT /F1 8 Tf 1 0 0 1 52 39 Tm (HTML Foundations Lab - Curriculo) Tj ET
-0.360 0.440 0.410 rg BT /F1 8 Tf 1 0 0 1 532.28 39 Tm (3) Tj ET
+0.090 0.430 0.370 rg 0 830.89 595.28 11 re f
+0.360 0.430 0.450 rg BT /F2 8.7 Tf 1 0 0 1 50 806 Tm (HTML FOUNDATIONS LAB / GRADE CURRICULAR) Tj ET
+0.820 0.860 0.840 RG .7 w 50 793 m 545.28 793 l S
+0.100 0.170 0.190 rg BT /F2 11.1 Tf 1 0 0 1 50 764.00 Tm (T\363picos) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 738.00 Tm (HTML-03.01 \227 Links e URLs) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 720.30 Tm (Elemento <a>, href, URLs relativas e absolutas, caminhos entre arquivos e pastas, fragmentos \(#id\), mailto: e) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 705.60 Tm (tel:; distin\347\343o entre navega\347\343o por links e a\347\365es por bot\365es.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 683.90 Tm (HTML-03.02 \227 Navega\347\343o) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 666.20 Tm (<nav>, organiza\347\343o de menus, texto descritivo de links, identifica\347\343o de regi\365es de navega\347\343o e uso criterioso) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 651.50 Tm (de target/rel. Preferir navega\347\343o por teclado e evitar abrir janelas desnecessariamente.) Tj ET
+0.100 0.170 0.190 rg BT /F2 11.1 Tf 1 0 0 1 50 624.80 Tm (Compet\352ncias) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.15 Tf 1 0 0 1 60 603.80 Tm (- Criar navega\347\343o entre documentos e \342ncoras internas.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.15 Tf 1 0 0 1 60 587.70 Tm (- Distinguir links de a\347\365es executadas por bot\365es.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.15 Tf 1 0 0 1 60 571.60 Tm (- Estruturar menus de navega\347\343o sem\342nticos.) Tj ET
+0.100 0.170 0.190 rg BT /F2 11.1 Tf 1 0 0 1 50 545.50 Tm (Exerc\355cio integrador) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 521.50 Tm (Central de navega\347\343o. Criar duas ou mais p\341ginas interligadas, com menu, links internos e navega\347\343o acess\355vel.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 501.80 Tm (Abrir m\363dulo) Tj ET
+0.090 0.430 0.370 rg BT /F2 14.3 Tf 1 0 0 1 50 462.10 Tm (HTML-04 \227 Estrutura Sem\342ntica de Conte\372do) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 430.10 Tm (Objetivo: Escolher elementos estruturais de acordo com a fun\347\343o do conte\372do.) Tj ET
+0.100 0.170 0.190 rg BT /F2 11.1 Tf 1 0 0 1 50 402.40 Tm (T\363picos) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 376.40 Tm (HTML-04.01 \227 Regi\365es da p\341gina) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 358.70 Tm (<header>, <main> e <footer>; contexto de uso na p\341gina e em se\347\365es.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 337.00 Tm (HTML-04.02 \227 Se\347\365es e conte\372do independente) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 319.30 Tm (<section>, <article>, <aside> e <div>; significado, hierarquia e t\355tulos/r\363tulos quando necess\341rios. Distinguir) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 304.60 Tm (estrutura sem\342ntica de agrupamentos gen\351ricos; usar uma regi\343o <main> principal por documento.) Tj ET
+0.100 0.170 0.190 rg BT /F2 11.1 Tf 1 0 0 1 50 277.90 Tm (Compet\352ncias) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.15 Tf 1 0 0 1 60 256.90 Tm (- Distribuir conte\372do em regi\365es semanticamente coerentes.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.15 Tf 1 0 0 1 60 240.80 Tm (- Distinguir se\347\343o tem\341tica de conte\372do independente.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.15 Tf 1 0 0 1 60 224.70 Tm (- Preferir elementos nativos com significado a cont\352ineres gen\351ricos sem necessidade.) Tj ET
+0.100 0.170 0.190 rg BT /F2 11.1 Tf 1 0 0 1 50 198.60 Tm (Exerc\355cio integrador) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 174.60 Tm (Portal de artigos. Organizar uma p\341gina com cabe\347alho, navega\347\343o, conte\372do principal, artigos, informa\347\365es) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 159.90 Tm (complementares e rodap\351.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 140.20 Tm (Abrir m\363dulo) Tj ET
+0.820 0.860 0.840 RG .6 w 50 54 m 545.28 54 l S
+0.360 0.430 0.450 rg BT /F1 8 Tf 1 0 0 1 50 39 Tm (HTML Foundations Lab - Curriculo) Tj ET
+0.360 0.430 0.450 rg BT /F2 8 Tf 1 0 0 1 529.28 39 Tm (3) Tj ET
 endstream
 endobj
 11 0 obj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 12 0 R >>
 endobj
 12 0 obj
-<< /Length 4227 >>
+<< /Length 4357 >>
 stream
-0.100 0.450 0.390 RG 0.7 w 52 809 m 543.28 809 l S
-0.360 0.440 0.410 rg BT /F2 8 Tf 1 0 0 1 52 817 Tm (HTML FOUNDATIONS LAB  /  CURRICULO) Tj ET
-0.100 0.210 0.190 rg BT /F2 10.7 Tf 1 0 0 1 52 781.00 Tm (Exerc\355cio integrador) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 762.00 Tm (Galeria editorial acess\355vel. Apresentar imagens e legendas em uma p\341gina sem\342ntica e responsiva; incluir \341udio ou) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 747.00 Tm (v\355deo somente se houver motivo funcional.) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 728.00 Tm (Abrir m\363dulo) Tj ET
-0.100 0.450 0.390 rg BT /F2 14.7 Tf 1 0 0 1 52 689.00 Tm (HTML-06 \227 Dados Tabulares) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 660.00 Tm (Objetivo: Representar dados com rela\347\365es expl\355citas entre cabe\347alhos, linhas e colunas.) Tj ET
-0.100 0.210 0.190 rg BT /F2 10.7 Tf 1 0 0 1 52 634.00 Tm (T\363picos) Tj ET
-0.100 0.210 0.190 rg BT /F2 10 Tf 1 0 0 1 52 608.00 Tm (HTML-06.01 \227 Tabelas de dados) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 591.00 Tm (<table>, <caption>, <thead>, <tbody>, <tfoot>, <tr>, <th>, <td> e scope; tabelas para dados, n\343o para layout.) Tj ET
-0.100 0.210 0.190 rg BT /F2 10.7 Tf 1 0 0 1 52 565.00 Tm (Compet\352ncias) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.45 Tf 1 0 0 1 62 546.00 Tm (- Montar uma tabela semanticamente correta.) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.45 Tf 1 0 0 1 62 529.80 Tm (- Associar cabe\347alhos \340s c\351lulas e incluir contexto descritivo.) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.45 Tf 1 0 0 1 62 513.60 Tm (- Distinguir apresenta\347\343o tabular de estruturas de layout.) Tj ET
-0.100 0.210 0.190 rg BT /F2 10.7 Tf 1 0 0 1 52 488.40 Tm (Exerc\355cio integrador) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 469.40 Tm (Painel de dados tabulares. Exibir um conjunto coerente de registros em tabela com cabe\347alhos, legenda e organiza\347\343o) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 454.40 Tm (sem\342ntica.) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 435.40 Tm (Abrir m\363dulo) Tj ET
-0.100 0.450 0.390 rg BT /F2 14.7 Tf 1 0 0 1 52 396.40 Tm (HTML-07 \227 Formul\341rios e Dados) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 367.40 Tm (Objetivo: Capturar e enviar dados com controles nativos, associa\347\365es acess\355veis e compreens\343o de submiss\343o HTTP.) Tj ET
-0.100 0.210 0.190 rg BT /F2 10.7 Tf 1 0 0 1 52 341.40 Tm (T\363picos) Tj ET
-0.100 0.210 0.190 rg BT /F2 10 Tf 1 0 0 1 52 315.40 Tm (HTML-07.01 \227 Estrutura e submiss\343o) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 298.40 Tm (<form>, action, method, name, GET/POST, codifica\347\343o de dados e bot\365es de submiss\343o; diferen\347a entre enviar dados e) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 283.40 Tm (persisti-los.) Tj ET
-0.100 0.210 0.190 rg BT /F2 10 Tf 1 0 0 1 52 259.40 Tm (HTML-07.02 \227 Controles e r\363tulos) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 242.40 Tm (<label>, <input>, <textarea>, <select>, <option>, <button>, <fieldset> e <legend>; tipos e associa\347\343o for/id.) Tj ET
-0.100 0.210 0.190 rg BT /F2 10 Tf 1 0 0 1 52 218.40 Tm (HTML-07.03 \227 Valida\347\343o nativa) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 201.40 Tm (required, min, max, pattern, limites de texto e autocomplete; limites da valida\347\343o no navegador e necessidade de) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 186.40 Tm (valida\347\343o no servidor.) Tj ET
-0.100 0.210 0.190 rg BT /F2 10.7 Tf 1 0 0 1 52 160.40 Tm (Compet\352ncias) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.45 Tf 1 0 0 1 62 141.40 Tm (- Criar formul\341rios com nomes, r\363tulos e tipos adequados.) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.45 Tf 1 0 0 1 62 125.20 Tm (- Explicar como a submiss\343o produz uma requisi\347\343o HTTP.) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.45 Tf 1 0 0 1 62 109.00 Tm (- Aplicar valida\347\343o nativa e reconhecer que ela n\343o substitui a valida\347\343o backend.) Tj ET
-0.800 0.870 0.830 RG 0.65 w 52 54 m 543.28 54 l S
-0.360 0.440 0.410 rg BT /F1 8 Tf 1 0 0 1 52 39 Tm (HTML Foundations Lab - Curriculo) Tj ET
-0.360 0.440 0.410 rg BT /F1 8 Tf 1 0 0 1 532.28 39 Tm (4) Tj ET
+0.090 0.430 0.370 rg 0 830.89 595.28 11 re f
+0.360 0.430 0.450 rg BT /F2 8.7 Tf 1 0 0 1 50 806 Tm (HTML FOUNDATIONS LAB / GRADE CURRICULAR) Tj ET
+0.820 0.860 0.840 RG .7 w 50 793 m 545.28 793 l S
+0.090 0.430 0.370 rg BT /F2 14.3 Tf 1 0 0 1 50 760.00 Tm (HTML-05 \227 Conte\372do Multim\355dia e Visual) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 728.00 Tm (Objetivo: Incorporar imagens e m\355dias sem comprometer contexto, acessibilidade e desempenho.) Tj ET
+0.100 0.170 0.190 rg BT /F2 11.1 Tf 1 0 0 1 50 700.30 Tm (T\363picos) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 674.30 Tm (HTML-05.01 \227 Imagens e figuras) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 656.60 Tm (<img>, src, alt informativo ou vazio em imagens decorativas, <figure>/<figcaption>, width/height para reduzir) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 641.90 Tm (mudan\347as de layout e loading="lazy" quando apropriado. Entender srcset/sizes e <picture> como recursos) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 627.20 Tm (para imagens adaptativas, aprofundados conforme a necessidade.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 605.50 Tm (HTML-05.02 \227 \301udio e v\355deo \227 complemento) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 587.80 Tm (Uso b\341sico de <audio>, <video>, <source> e <track>; controles, legendas e alternativas acess\355veis. Praticar em) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 573.10 Tm (profundidade quando o projeto exigir.) Tj ET
+0.100 0.170 0.190 rg BT /F2 11.1 Tf 1 0 0 1 50 546.40 Tm (Compet\352ncias) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.15 Tf 1 0 0 1 60 525.40 Tm (- Usar imagens com finalidade e texto alternativo corretos.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.15 Tf 1 0 0 1 60 509.30 Tm (- Escolher legenda, dimens\365es e comportamento responsivo adequados.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.15 Tf 1 0 0 1 60 493.20 Tm (- Reconhecer os recursos nativos b\341sicos para \341udio, v\355deo e legendas.) Tj ET
+0.100 0.170 0.190 rg BT /F2 11.1 Tf 1 0 0 1 50 467.10 Tm (Exerc\355cio integrador) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 443.10 Tm (Galeria editorial acess\355vel. Apresentar imagens e legendas em uma p\341gina sem\342ntica e responsiva; incluir \341udio) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 428.40 Tm (ou v\355deo somente se houver motivo funcional.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 408.70 Tm (Abrir m\363dulo) Tj ET
+0.090 0.430 0.370 rg BT /F2 14.3 Tf 1 0 0 1 50 369.00 Tm (HTML-06 \227 Dados Tabulares) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 337.00 Tm (Objetivo: Representar dados com rela\347\365es expl\355citas entre cabe\347alhos, linhas e colunas.) Tj ET
+0.100 0.170 0.190 rg BT /F2 11.1 Tf 1 0 0 1 50 309.30 Tm (T\363picos) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 283.30 Tm (HTML-06.01 \227 Tabelas de dados) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 265.60 Tm (<table>, <caption>, <thead>, <tbody>, <tfoot>, <tr>, <th>, <td> e scope="col"/scope="row"; associar) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 250.90 Tm (corretamente cabe\347alhos e c\351lulas. Usar colspan/rowspan somente quando houver rela\347\343o tabular real; n\343o) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 236.20 Tm (utilizar tabelas para layout.) Tj ET
+0.100 0.170 0.190 rg BT /F2 11.1 Tf 1 0 0 1 50 209.50 Tm (Compet\352ncias) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.15 Tf 1 0 0 1 60 188.50 Tm (- Montar uma tabela semanticamente correta.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.15 Tf 1 0 0 1 60 172.40 Tm (- Associar cabe\347alhos \340s c\351lulas e incluir contexto descritivo.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.15 Tf 1 0 0 1 60 156.30 Tm (- Distinguir apresenta\347\343o tabular de estruturas de layout.) Tj ET
+0.100 0.170 0.190 rg BT /F2 11.1 Tf 1 0 0 1 50 130.20 Tm (Exerc\355cio integrador) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 106.20 Tm (Painel de dados tabulares. Exibir um conjunto coerente de registros em tabela com cabe\347alhos, legenda e) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 91.50 Tm (organiza\347\343o sem\342ntica.) Tj ET
+0.820 0.860 0.840 RG .6 w 50 54 m 545.28 54 l S
+0.360 0.430 0.450 rg BT /F1 8 Tf 1 0 0 1 50 39 Tm (HTML Foundations Lab - Curriculo) Tj ET
+0.360 0.430 0.450 rg BT /F2 8 Tf 1 0 0 1 529.28 39 Tm (4) Tj ET
 endstream
 endobj
 13 0 obj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 14 0 R >>
 endobj
 14 0 obj
-<< /Length 1064 >>
+<< /Length 4921 >>
 stream
-0.100 0.450 0.390 RG 0.7 w 52 809 m 543.28 809 l S
-0.360 0.440 0.410 rg BT /F2 8 Tf 1 0 0 1 52 817 Tm (HTML FOUNDATIONS LAB  /  CURRICULO) Tj ET
-0.100 0.210 0.190 rg BT /F2 10.7 Tf 1 0 0 1 52 781.00 Tm (Exerc\355cio integrador) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 762.00 Tm (Formul\341rio de solicita\347\343o. Implementar formul\341rio acess\355vel com campos relacionados, valida\347\343o e comportamento de) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 747.00 Tm (submiss\343o observ\341vel no navegador.) Tj ET
-0.100 0.210 0.190 rg BT /F1 9.3 Tf 1 0 0 1 52 728.00 Tm (Abrir m\363dulo) Tj ET
-0.100 0.210 0.190 rg BT /F2 10 Tf 1 0 0 1 52 699.00 Tm (Refer\352ncias: MDN \227 Learn Web Development \267 HTML Living Standard \267 WAI \227 Accessibility) Tj ET
-0.100 0.210 0.190 rg BT /F2 10 Tf 1 0 0 1 52 684.00 Tm (Fundamentals.) Tj ET
-0.800 0.870 0.830 RG 0.65 w 52 54 m 543.28 54 l S
-0.360 0.440 0.410 rg BT /F1 8 Tf 1 0 0 1 52 39 Tm (HTML Foundations Lab - Curriculo) Tj ET
-0.360 0.440 0.410 rg BT /F1 8 Tf 1 0 0 1 532.28 39 Tm (5) Tj ET
+0.090 0.430 0.370 rg 0 830.89 595.28 11 re f
+0.360 0.430 0.450 rg BT /F2 8.7 Tf 1 0 0 1 50 806 Tm (HTML FOUNDATIONS LAB / GRADE CURRICULAR) Tj ET
+0.820 0.860 0.840 RG .7 w 50 793 m 545.28 793 l S
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 772.00 Tm (Abrir m\363dulo) Tj ET
+0.090 0.430 0.370 rg BT /F2 14.3 Tf 1 0 0 1 50 732.30 Tm (HTML-07 \227 Formul\341rios e Dados) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 700.30 Tm (Objetivo: Capturar e enviar dados com controles nativos, associa\347\365es acess\355veis e compreens\343o de submiss\343o) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 685.60 Tm (HTTP.) Tj ET
+0.100 0.170 0.190 rg BT /F2 11.1 Tf 1 0 0 1 50 657.90 Tm (T\363picos) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 631.90 Tm (HTML-07.01 \227 Estrutura e submiss\343o) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 614.20 Tm (<form>, action, method, name e value dos controles, m\351todos GET/POST, codifica\347\343o de dados e bot\365es com) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 599.50 Tm (type adequado \(submit/button\). Compreender quais controles s\343o enviados, a montagem da requisi\347\343o e a) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 584.80 Tm (diferen\347a entre submiss\343o e persist\352ncia.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 563.10 Tm (HTML-07.02 \227 Controles e r\363tulos) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 545.40 Tm (<label>, <input>, <textarea>, <select>, <option>, <button>, <fieldset> e <legend>; associa\347\343o for/id, tipos de) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 530.70 Tm (entrada comuns e grupos de checkbox/radio. Um placeholder n\343o substitui o r\363tulo; controles devem ser) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 516.00 Tm (compreens\355veis por teclado e tecnologia assistiva.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 494.30 Tm (HTML-07.03 \227 Valida\347\343o nativa) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 476.60 Tm (required, type="email", min, max, minlength, maxlength, pattern e autocomplete; diferen\347as pr\341ticas entre) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 461.90 Tm (readonly e disabled. Entender valida\347\343o nativa, mensagens de erro, envio de dados e por que o servidor precisa) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 447.20 Tm (validar novamente.) Tj ET
+0.100 0.170 0.190 rg BT /F2 11.1 Tf 1 0 0 1 50 420.50 Tm (Compet\352ncias) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.15 Tf 1 0 0 1 60 399.50 Tm (- Criar formul\341rios com nomes, r\363tulos, grupos e tipos adequados, utiliz\341veis com teclado.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.15 Tf 1 0 0 1 60 383.40 Tm (- Explicar quais dados s\343o submetidos, como GET/POST diferem e como nasce a requisi\347\343o HTTP.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.15 Tf 1 0 0 1 60 367.30 Tm (- Aplicar valida\347\343o nativa e reconhecer que ela n\343o substitui a valida\347\343o backend.) Tj ET
+0.100 0.170 0.190 rg BT /F2 11.1 Tf 1 0 0 1 50 341.20 Tm (Exerc\355cio integrador) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 317.20 Tm (Formul\341rio de solicita\347\343o. Implementar formul\341rio acess\355vel com campos relacionados, valida\347\343o e) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 302.50 Tm (comportamento de submiss\343o observ\341vel no navegador. A constru\347\343o de um servidor para receber dados fica) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 287.80 Tm (fora do escopo deste exerc\355cio.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 268.10 Tm (Abrir m\363dulo) Tj ET
+0.090 0.430 0.370 rg BT /F2 14.3 Tf 1 0 0 1 50 228.40 Tm (Verifica\347\343o pr\341tica ao concluir o Lab) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.15 Tf 1 0 0 1 60 199.40 Tm (- Conferir a hierarquia de t\355tulos, a sem\342ntica e a associa\347\343o de r\363tulos; navegar com teclado.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.15 Tf 1 0 0 1 60 183.30 Tm (- Inspecionar o DOM e testar os links, imagens e formul\341rios no navegador.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.15 Tf 1 0 0 1 60 167.20 Tm (- Verificar a marca\347\343o com um validador HTML; erros que afetam estrutura, submiss\343o ou acessibilidade) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.15 Tf 1 0 0 1 60 152.60 Tm (precisam ser corrigidos.) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 131.50 Tm (Pr\363ximas tecnologias: CSS cuida de apar\352ncia e responsividade; JavaScript acrescenta estado e) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 116.80 Tm (comportamento. Os princ\355pios de HTTP e valida\347\343o de dados ser\343o aprofundados no estudo da Web e de) Tj ET
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 102.10 Tm (backend.) Tj ET
+0.820 0.860 0.840 RG .6 w 50 54 m 545.28 54 l S
+0.360 0.430 0.450 rg BT /F1 8 Tf 1 0 0 1 50 39 Tm (HTML Foundations Lab - Curriculo) Tj ET
+0.360 0.430 0.450 rg BT /F2 8 Tf 1 0 0 1 529.28 39 Tm (5) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 16 0 R >>
+endobj
+16 0 obj
+<< /Length 578 >>
+stream
+0.090 0.430 0.370 rg 0 830.89 595.28 11 re f
+0.360 0.430 0.450 rg BT /F2 8.7 Tf 1 0 0 1 50 806 Tm (HTML FOUNDATIONS LAB / GRADE CURRICULAR) Tj ET
+0.820 0.860 0.840 RG .7 w 50 793 m 545.28 793 l S
+0.100 0.170 0.190 rg BT /F1 9.3 Tf 1 0 0 1 50 769.00 Tm (Refer\352ncias: MDN \227 Learn Web Development \267 HTML Living Standard \267 WAI \227 Accessibility Fundamentals.) Tj ET
+0.820 0.860 0.840 RG .6 w 50 54 m 545.28 54 l S
+0.360 0.430 0.450 rg BT /F1 8 Tf 1 0 0 1 50 39 Tm (HTML Foundations Lab - Curriculo) Tj ET
+0.360 0.430 0.450 rg BT /F2 8 Tf 1 0 0 1 529.28 39 Tm (6) Tj ET
 endstream
 endobj
 xref
-0 15
+0 17
 0000000000 65535 f 
-0000000033 00000 n 
-0000000082 00000 n 
-0000000167 00000 n 
-0000000264 00000 n 
-0000000366 00000 n 
-0000000508 00000 n 
-0000005129 00000 n 
-0000005271 00000 n 
-0000009573 00000 n 
-0000009716 00000 n 
-0000014154 00000 n 
-0000014298 00000 n 
-0000018577 00000 n 
-0000018721 00000 n 
+0000000038 00000 n 
+0000000087 00000 n 
+0000000177 00000 n 
+0000000274 00000 n 
+0000000376 00000 n 
+0000000518 00000 n 
+0000005187 00000 n 
+0000005329 00000 n 
+0000009792 00000 n 
+0000009935 00000 n 
+0000014156 00000 n 
+0000014300 00000 n 
+0000018709 00000 n 
+0000018853 00000 n 
+0000023826 00000 n 
+0000023970 00000 n 
 trailer
-<< /Size 15 /Root 1 0 R >>
+<< /Size 17 /Root 1 0 R >>
 startxref
-19837
+24599
 %%EOF

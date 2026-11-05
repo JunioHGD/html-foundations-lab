@@ -1,6 +1,6 @@
 # HTML-01 — Janela de Publicação: Atlas 2.4.0
 
-Exercício integrador do módulo **Estrutura do Documento**. O painel simula a conferência de critérios necessários à publicação de um produto fictício.
+Exercício integrador do módulo **Estrutura do Documento**. A avaliação curricular prioriza a estrutura e os atributos HTML; os recursos de CSS e JavaScript presentes na aplicação são integração complementar. O painel simula a conferência de critérios necessários à publicação de um produto fictício.
 
 ## Tópicos do módulo
 

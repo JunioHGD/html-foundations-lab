@@ -10,8 +10,8 @@ Capturar e enviar dados com controles nativos, associações acessíveis e compr
 
 ## Competências
 
-- Criar formulários com nomes, rótulos e tipos adequados.
-- Explicar como a submissão produz uma requisição HTTP.
+- Criar formulários com nomes, rótulos, grupos e tipos adequados, utilizáveis com teclado.
+- Explicar quais campos serão enviados e como `GET` e `POST` produzem requisições HTTP.
 - Aplicar validação nativa e reconhecer que ela não substitui a validação backend.
 
 ## Exercício integrador
