@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Acompanhe os critérios, as dependências e o histórico de ações da publicação do Atlas 2.4.0.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Atlas v:2.4.0 - Janela de Publicação - Bloqueado</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <a class="skip-link" href="#criteriaTableRegion">Ir para os critérios</a>
+        <main class="app-shell">
+            <header class="page-header">
+                <div class="brand">
+                    <h1>Atlas <span class="visually-hidden">Software Product</span></h1>
+                    <p>Janela de publicação <span class="version">v2.4.0</span></p>
+                </div>
+                <p class="publication-status">
+                    <span class="status-dot" aria-hidden="true"></span>
+                    <span id="statusInfo">Bloqueado</span>
+                </p>
+            </header>
+            <details class="panel-description">
+                <summary>Sobre este painel</summary>
+                <p>Este painel acompanha os critérios técnicos e operacionais para a publicação da versão 2.4.0 do Atlas, permitindo consultar pendências e registrar uma liberação simulada. A publicação começa bloqueada por três critérios críticos pendentes e só poderá ser liberada quando todos os critérios críticos estiverem concluídos.</p>
+            </details>
+
+            <div class="dashboard">
+                <article class="monitor-panel" aria-label="Acompanhamento da publicação">
+                    <section class="card filter-panel" aria-labelledby="filtersHeading">
+                        <h2 id="filtersHeading">Controles</h2>
+                        <fieldset>
+                            <legend>Estado</legend>
+                            <div class="filter-buttons">
+                                <button type="button" class="filterType" data-filterType="all" aria-pressed="true">Todos</button>
+                                <button type="button" class="filterType" data-filterType="concluded" aria-pressed="false">Concluídos</button>
+                                <button type="button" class="filterType" data-filterType="pending" aria-pressed="false">Pendentes</button>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Prioridade</legend>
+                            <div class="filter-buttons">
+                                <button type="button" class="filterType" data-filterType="critical" aria-pressed="false">Críticos</button>
+                                <button type="button" class="filterType" data-filterType="support" aria-pressed="false">Apoio</button>
+                            </div>
+                        </fieldset>
+                    </section>
+                    <section class="card summary-panel" aria-labelledby="summaryHeading">
+                        <h2 id="summaryHeading">Dados gerais</h2>
+                        <table class="summary-table">
+                            <caption class="visually-hidden">Totais dos critérios de publicação</caption>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Total</th>
+                                    <td id="totalCriteria"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Concluídos</th>
+                                    <td id="concludedCriteria"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Pendentes</th>
+                                    <td id="pendingCriteria"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Críticos pendentes</th>
+                                    <td id="pendingCritical"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                    <aside class="activity-panels" aria-label="Pendências e movimentações">
+                        <section class="card critical-panel" id="criticalPendingCriteria" aria-labelledby="criticalHeading">
+                            <h2 id="criticalHeading">Critérios críticos pendentes</h2>
+                            <div class="activity-scroll" tabindex="0" role="region" aria-labelledby="criticalHeading">
+                                <p class="empty-message" id="criterionStatusInfo"></p>
+                                <ul id="criterionCriticalPanel"></ul>
+                            </div>
+                        </section>
+                        <section class="card history-panel" id="criterionHistorical" aria-labelledby="historyHeading">
+                            <h2 id="historyHeading">Histórico de ações</h2>
+                            <div class="activity-scroll" tabindex="0" role="region" aria-labelledby="historyHeading">
+                                <p class="empty-message" id="historyMessage"></p>
+                                <ol id="criterionHistoryList"></ol>
+                            </div>
+                        </section>
+                    </aside>
+                </article>
+
+                <section class="card criteria-section" aria-labelledby="criteriaHeading">
+                    <div class="section-heading">
+                        <h2 id="criteriaHeading">Critérios de publicação</h2>
+                        <p id="visibleCriteriaCount" role="status"></p>
+                    </div>
+                    <p class="scroll-hint" id="tableScrollHint">Role a tabela para consultar os critérios e acessar os controles.</p>
+                    <div class="table-scroll" id="criteriaTableRegion" tabindex="0" role="region" aria-labelledby="criteriaHeading" aria-describedby="tableScrollHint">
+                        <table class="criteria-table">
+                            <caption class="visually-hidden">Critérios para a publicação da versão 2.4.0</caption>
+                            <thead>
+                                <tr>
+                                    <th scope="col">Código</th>
+                                    <th scope="col">Área</th>
+                                    <th scope="col">Critério</th>
+                                    <th scope="col">Prioridade</th>
+                                    <th scope="col">Estado atual</th>
+                                    <th scope="col">Dependência</th>
+                                    <th scope="col" title="Alterne o estado atual de cada critério">Ação</th>
+                                </tr>
+                            </thead>
+                            <tbody id="criterionPanel">
+                                <tr class="criterionInfo" data-code="BKP">
+                                    <th scope="row">BKP</th>
+                                    <td data-area="Infraestrutura">Infraestrutura</td>
+                                    <td data-criterion="Backup de recuperação verificado">Backup de recuperação verificado</td>
+                                    <td data-priority="critical">Crítico</td>
+                                    <td data-state="concluded">Concluído</td>
+                                    <td data-dependence="none">Nenhuma</td>
+                                    <td>
+                                        <button class="stateChange" data-code="BKP"></button>
+                                    </td>
+                                </tr>
+                                <tr class="criterionInfo" data-code="REV">
+                                    <th scope="row">REV</th>
+                                    <td data-area="Infraestrutura">Infraestrutura</td>
+                                    <td data-criterion="Plano de reversão validado">Plano de reversão validado</td>
+                                    <td data-priority="critical">Crítico</td>
+                                    <td data-state="pending">Pendente</td>
+                                    <td data-dependence="BKP">BKP</td>
+                                    <td>
+                                        <button class="stateChange" data-code="REV"></button>
+                                    </td>
+                                </tr>
+                                <tr class="criterionInfo" data-code="MON">
+                                    <th scope="row">MON</th>
+                                    <td data-area="Infraestrutura">Infraestrutura</td>
+                                    <td data-criterion="Monitoramento de produção preparado">Monitoramento de produção preparado</td>
+                                    <td data-priority="critical">Crítico</td>
+                                    <td data-state="pending">Pendente</td>
+                                    <td data-dependence="none">Nenhuma</td>
+                                    <td>
+                                        <button class="stateChange" data-code="MON"></button>
+                                    </td>
+                                </tr>
+                                <tr class="criterionInfo" data-code="HML">
+                                    <th scope="row">HML</th>
+                                    <td data-area="Qualidade">Qualidade</td>
+                                    <td data-criterion="Ambiente de homologação aprovado">Ambiente de homologação aprovado</td>
+                                    <td data-priority="critical">Crítico</td>
+                                    <td data-state="concluded">Concluído</td>
+                                    <td data-dependence="none">Nenhuma</td>
+                                    <td>
+                                        <button class="stateChange" data-code="HML"></button>
+                                    </td>
+                                </tr>
+                                <tr class="criterionInfo" data-code="TST">
+                                    <th scope="row">TST</th>
+                                    <td data-area="Qualidade">Qualidade</td>
+                                    <td data-criterion="Testes essenciais executados">Testes essenciais executados</td>
+                                    <td data-priority="critical">Crítico</td>
+                                    <td data-state="pending">Pendente</td>
+                                    <td data-dependence="HML">HML</td>
+                                    <td>
+                                        <button class="stateChange" data-code="TST"></button>
+                                    </td>
+                                </tr>
+                                <tr class="criterionInfo" data-code="COM">
+                                    <th scope="row">COM</th>
+                                    <td data-area="Comunicação">Comunicação</td>
+                                    <td data-criterion="Equipe informada sobre a janela">Equipe informada sobre a janela</td>
+                                    <td data-priority="support">Apoio</td>
+                                    <td data-state="concluded">Concluído</td>
+                                    <td data-dependence="none">Nenhuma</td>
+                                    <td>
+                                        <button class="stateChange" data-code="COM"></button>
+                                    </td>
+                                </tr>
+                                <tr class="criterionInfo" data-code="DOC">
+                                    <th scope="row">DOC</th>
+                                    <td data-area="Comunicação">Comunicação</td>
+                                    <td data-criterion="Notas da versão revisadas">Notas da versão revisadas</td>
+                                    <td data-priority="support">Apoio</td>
+                                    <td data-state="pending">Pendente</td>
+                                    <td data-dependence="none">Nenhuma</td>
+                                    <td>
+                                        <button class="stateChange" data-code="DOC"></button>
+                                    </td>
+                                </tr>
+                                <tr class="criterionInfo" data-code="SUP">
+                                    <th scope="row">SUP</th>
+                                    <td data-area="Comunicação">Comunicação</td>
+                                    <td data-criterion="Suporte orientado sobre a versão">Suporte orientado sobre a versão</td>
+                                    <td data-priority="support">Apoio</td>
+                                    <td data-state="concluded">Concluído</td>
+                                    <td data-dependence="none">Nenhuma</td>
+                                    <td>
+                                        <button class="stateChange" data-code="SUP"></button>
+                                    </td>
+                                </tr>
+                                <tr class="criterionInfo" data-code="INV">
+                                    <th scope="row">INV</th>
+                                    <td data-area="Infraestrutura">Infraestrutura</td>
+                                    <td data-criterion="Inventário dos serviços atualizado">Inventário dos serviços atualizado</td>
+                                    <td data-priority="support">Apoio</td>
+                                    <td data-state="concluded">Concluído</td>
+                                    <td data-dependence="none">Nenhuma</td>
+                                    <td>
+                                        <button class="stateChange" data-code="INV"></button>
+                                    </td>
+                                </tr>
+                                <tr class="criterionInfo" data-code="EVD">
+                                    <th scope="row">EVD</th>
+                                    <td data-area="Qualidade">Qualidade</td>
+                                    <td data-criterion="Evidências da homologação organizadas">Evidências da homologação organizadas</td>
+                                    <td data-priority="support">Apoio</td>
+                                    <td data-state="pending">Pendente</td>
+                                    <td data-dependence="HML">HML</td>
+                                    <td>
+                                        <button class="stateChange" data-code="EVD"></button>
+                                    </td>
+                                </tr>
+                                <tr class="criterionInfo" data-code="FAQ">
+                                    <th scope="row">FAQ</th>
+                                    <td data-area="Comunicação">Comunicação</td>
+                                    <td data-criterion="Perguntas frequentes da versão atualizadas">Perguntas frequentes da versão atualizadas</td>
+                                    <td data-priority="support">Apoio</td>
+                                    <td data-state="pending">Pendente</td>
+                                    <td data-dependence="none">Nenhuma</td>
+                                    <td>
+                                        <button class="stateChange" data-code="FAQ"></button>
+                                    </td>
+                                </tr>
+                                <tr class="criterionInfo" data-code="CTT">
+                                    <th scope="row">CTT</th>
+                                    <td data-area="Comunicação">Comunicação</td>
+                                    <td data-criterion="Lista de contatos de plantão revisada">Lista de contatos de plantão revisada</td>
+                                    <td data-priority="support">Apoio</td>
+                                    <td data-state="concluded">Concluído</td>
+                                    <td data-dependence="none">Nenhuma</td>
+                                    <td>
+                                        <button class="stateChange" data-code="CTT"></button>
+                                    </td>
+                                </tr>
+                                <tr class="criterionInfo" data-code="LOG">
+                                    <th scope="row">LOG</th>
+                                    <td data-area="Infraestrutura">Infraestrutura</td>
+                                    <td data-criterion="Política de retenção dos logs documentada">Política de retenção dos logs documentada</td>
+                                    <td data-priority="support">Apoio</td>
+                                    <td data-state="concluded">Concluído</td>
+                                    <td data-dependence="none">Nenhuma</td>
+                                    <td>
+                                        <button class="stateChange" data-code="LOG"></button>
+                                    </td>
+                                </tr>
+                                <tr class="criterionInfo" data-code="CAP">
+                                    <th scope="row">CAP</th>
+                                    <td data-area="Infraestrutura">Infraestrutura</td>
+                                    <td data-criterion="Relatório de capacidade dos serviços revisado">Relatório de capacidade dos serviços revisado</td>
+                                    <td data-priority="support">Apoio</td>
+                                    <td data-state="pending">Pendente</td>
+                                    <td data-dependence="none">Nenhuma</td>
+                                    <td>
+                                        <button class="stateChange" data-code="CAP"></button>
+                                    </td>
+                                </tr>
+                                <tr class="criterionInfo" data-code="CMP">
+                                    <th scope="row">CMP</th>
+                                    <td data-area="Qualidade">Qualidade</td>
+                                    <td data-criterion="Matriz de compatibilidade atualizada">Matriz de compatibilidade atualizada</td>
+                                    <td data-priority="support">Apoio</td>
+                                    <td data-state="concluded">Concluído</td>
+                                    <td data-dependence="none">Nenhuma</td>
+                                    <td>
+                                        <button class="stateChange" data-code="CMP"></button>
+                                    </td>
+                                </tr>
+                                <tr class="criterionInfo" data-code="RLT">
+                                    <th scope="row">RLT</th>
+                                    <td data-area="Qualidade">Qualidade</td>
+                                    <td data-criterion="Relatório dos testes essenciais revisado">Relatório dos testes essenciais revisado</td>
+                                    <td data-priority="support">Apoio</td>
+                                    <td data-state="pending">Pendente</td>
+                                    <td data-dependence="TST">TST</td>
+                                    <td>
+                                        <button class="stateChange" data-code="RLT"></button>
+                                    </td>
+                                </tr>
+                                <tr class="criterionInfo" data-code="GUI">
+                                    <th scope="row">GUI</th>
+                                    <td data-area="Comunicação">Comunicação</td>
+                                    <td data-criterion="Guia das novidades da versão preparado">Guia das novidades da versão preparado</td>
+                                    <td data-priority="support">Apoio</td>
+                                    <td data-state="pending">Pendente</td>
+                                    <td data-dependence="DOC">DOC</td>
+                                    <td>
+                                        <button class="stateChange" data-code="GUI"></button>
+                                    </td>
+                                </tr>
+                                <tr class="criterionInfo" data-code="CAN">
+                                    <th scope="row">CAN</th>
+                                    <td data-area="Comunicação">Comunicação</td>
+                                    <td data-criterion="Canal de acompanhamento da publicação divulgado">Canal de acompanhamento da publicação divulgado</td>
+                                    <td data-priority="support">Apoio</td>
+                                    <td data-state="concluded">Concluído</td>
+                                    <td data-dependence="none">Nenhuma</td>
+                                    <td>
+                                        <button class="stateChange" data-code="CAN"></button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="empty-message" id="emptyFilterMessage" hidden>Nenhum critério corresponde ao filtro selecionado.</p>
+                    <footer class="table-footer">
+                        <p id="currentStatusInfo" role="status" aria-live="polite"></p>
+                        <div class="publication-actions">
+                            <button type="button" id="resetButton" title="Retornar todos os critérios aos estados iniciais.">Reiniciar</button>
+                            <button type="button" id="concludedCriteriaButton" title="Conclua todos os critérios críticos para liberar a publicação.">Liberar publicação</button>
+                        </div>
+                    </footer>
+                </section>
+            </div>
+        </main>
+    </body>
+</html>
