@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Página não encontrada — HTML Foundations Lab</title>
+  <style>
+    body { min-height: 100vh; margin: 0; display: grid; place-items: center; padding: 24px; box-sizing: border-box; background: #f5f3eb; color: #19312e; font: 16px/1.6 system-ui, sans-serif; }
+    main { max-width: 560px; padding: 32px; border: 1px solid #d7ded8; border-radius: 12px; background: #fffefa; }
+    h1 { margin: 0 0 8px; font-size: 28px; }
+    a { color: #197266; font-weight: 600; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Página não encontrada</h1>
+  <p>O endereço solicitado não está disponível. Você pode continuar pela vitrine de exercícios.</p>
+  <p><a href="/html-foundations-lab/html-lab/">Abrir vitrine de exercícios</a></p>
+</main>
+<script>
+(function () {
+  "use strict";
+  const siteRoot = "/html-foundations-lab/";
+  const paths = [
+  [
+    "practice/html-01-estrutura-do-documento/checkpoint",
+    "modules/html-01-estrutura-do-documento/"
+  ],
+  [
+    "practice/html-01-estrutura-do-documento/html-01.01-estrutura-geral-de-documento/exercises/html-01.01-e01-reparando-a-fila-de-suporte",
+    "modules/html-01-estrutura-do-documento/exercises/HTML-01.01-E01-reparando-a-fila-de-suporte/"
+  ],
+  [
+    "practice/html-01-estrutura-do-documento/html-01.01-estrutura-geral-de-documento/exercises/html-01.01-e02-reconstruindo-a-conferencia-de-expedição",
+    "modules/html-01-estrutura-do-documento/exercises/HTML-01.01-E02-reconstruindo-a-conferencia-de-expedição/"
+  ],
+  [
+    "practice/html-01-estrutura-do-documento/html-01.02-cabecalho-e-metadados/exercises/html-01.02-e01-central-de-disponibilidade-nexoops",
+    "modules/html-01-estrutura-do-documento/exercises/HTML-01.02-E01-central-de-disponibilidade-nexoOps/"
+  ],
+  [
+    "practice/html-01-estrutura-do-documento/html-01.03-corpo-do-documento-e-atributos-globais/exercises/html-01.03-e01-painel-de-triagem-de-incidente",
+    "modules/html-01-estrutura-do-documento/exercises/HTML-01.03-E01-painel-de-triagem-de-incidente/"
+  ],
+  [
+    "practice/html-01-estrutura-do-documento/html-01.03-corpo-do-documento-e-atributos-globais/exercises/html-01.03-e01-painel-de-triagem-de-incidentes",
+    "modules/html-01-estrutura-do-documento/exercises/HTML-01.03-E01-painel-de-triagem-de-incidente/"
+  ]
+];
+  if (!window.location.pathname.startsWith(siteRoot)) return;
+  let path;
+  try { path = decodeURI(window.location.pathname.slice(siteRoot.length)); }
+  catch { return; }
+  path = path.replace(/\/index\.html$/i, "").replace(/\/+$/, "").toLowerCase();
+  const destination = new Map(paths).get(path);
+  if (destination) {
+    window.location.replace(siteRoot + encodeURI(destination) + window.location.search + window.location.hash);
+  }
+})();
+</script>
+</body>
+</html>
